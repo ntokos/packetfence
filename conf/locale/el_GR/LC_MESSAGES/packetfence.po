@@ -5,11 +5,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 15.0.0\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-09-30 13:14-0400\n"
-"Last-Translator: Inverse inc. <info@inverse.ca>\n"
-"Language-Team: English\n"
-"Language: en\n"
+"POT-Creation-Date: 2026-02-28 00:00+0200\n"
+"PO-Revision-Date: 2026-02-28 00:00+0200\n"
+"Last-Translator: Christos Ntokos, University of Ioannina, DGU (ntokos@uoi.gr)\n"
+"Language-Team: Greek (https://www.uoi.gr))\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -17,297 +17,297 @@ msgstr ""
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Root.pm
 msgid " with bandwidth balance : %s,"
-msgstr ""
+msgstr " με υπολοιπόμενο όγκο δεδομένων: %s,"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Root.pm
 msgid " with time balance : %s,"
-msgstr ""
+msgstr " με υπολοιπόμενο χρόνο: %s,"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Root.pm
 msgid " with unregistration date : %s,"
-msgstr ""
+msgstr " με ημερομηνία καταχώρησης: %s,"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Authentication/Email.pm
 msgid "%s: Email activation required"
-msgstr ""
+msgstr "%s: απαιτείται ενεργοποίηση email"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Authentication/Sponsor.pm
 msgid "%s: Guest access request"
-msgstr ""
+msgstr "%s: αίτημα πρόσβασης επισκέπτη"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "%s: Guest access request accepted"
-msgstr ""
+msgstr "%s: το αίτημα πρόσβασης επισκέπτη έγινε αποδεκτό"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "A <i>Security Warning</i> will appear, asking if you're sure you'd like to install the certificate. Click the <i>Yes</i> button."
-msgstr ""
+msgstr "Θα εμφανιστεί μια <i>Προειδοποίηση Ασφάλειας</i>, όπου θα ερωτηθείτε αν θέλετε να εγκαταστήσετε το πιστοποιητικό. Πατήστε το κουμπί <i>Yes</i>."
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "A confirmation will appear, indicating that the certificate import was successful. Press <i>OK</i>."
-msgstr ""
+msgstr "Θα εμφανιστεί μια επιβεβαίωση αναφέροντας ότι η εισαγωγή του πιστοποιητικού ήταν επιτυχής. Πατήστε <i>OK</i>."
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "A file browser will appear, allowing you to select the certificate. Locate the certificate you downloaded previously (it may be in a folder called <i>Downloads</i>), and double-click to open it."
-msgstr ""
+msgstr "Θα εμφανιστεί ένας εξερευνητής αρχείων για να επιλέξετε το πιστοποιητικό. Εντοπίστε το πιστοποιητικό που κατεβάσατε πριν (πιθανόν να είναι στο φάκελο με όνομα <i>Downloads</i>, και κάντε διπλό κλικ για να το ανοίξετε."
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "A prompt will appear asking whether to trust the certificate authority. Select <i>Trust this certificate for identifying websites</i> and then click <i>OK</i>."
-msgstr ""
+msgstr "Θα εμφανιστεί ένα μήνυμα που θα σας ρωτάει αν εμπιστεύεστε την αρχή πιστοποίησης. Επιλέξτε <i>Trust this certificate for identifying websites</i> και κάντε κλικ στο <i>OK</i>."
 
 # html/captive-portal/templates/pki_provider/packetfence_local.html
 # html/captive-portal/templates/pki_provider/packetfence_pki.html
 # html/captive-portal/templates/pki_provider/scep.html
 msgid "A random certificate password has been generated for you. Please note it as it will be necessary to complete the process."
-msgstr ""
+msgstr "Ένας τυχαίος κωδικός πιστοποιητικού έχει παραχθεί για εσάς. Παρακαλώ σημειώστε τον καθώς θα τον χρειαστείτε για να ολοκληρώσετε τη διαδικασία."
 
 # html/captive-portal/templates/ssl_inspection/ios.html
 msgid "A screen will appear called <i>Install Profile</i>. Tap the <i>Install</i> button in the top-right corner of the screen."
-msgstr ""
+msgstr "Θα εμφανιστεί η οθόνη με όνομα <i>Install Profile</i>. Πατήστε στο κουμπί <i>Install</i> στο πάνω δεξιά γωνία της οθόνης."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 msgid "AUP is required and it"
-msgstr ""
+msgstr "Απαιτείται η ΑΟΧ και"
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_confirmed.html
 msgid "Access Authorized"
-msgstr ""
+msgstr "Η πρόσβαση εξουσιοδοτήκε "
 
 # html/captive-portal/templates/activation/sponsor_set_access_durations.html
 msgid "Access duration"
-msgstr ""
+msgstr "Διάρκεια πρόσβασης"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "Access granted"
-msgstr ""
+msgstr "Επιτράπηκε η πρόσβαση"
 
 # html/captive-portal/templates/activation/sponsor_accepted.html
 msgid "Access to the guest network granted"
-msgstr ""
+msgstr "Επιτράπηκε η πρόσβαση στο δίκτυο επισκεπτών"
 
 # html/captive-portal/templates/activation/sponsor_accepted.html
 msgid "Access to the guest network has been granted."
-msgstr ""
+msgstr "Έχει επιτραπεί η πρόσβαση στο δίκτυο επισκεπτών"
 
 # html/captive-portal/templates/provisioner/deny.html
 # html/captive-portal/templates/provisioner/google_workspace_chromebook.html
 msgid "According to the provisioner configuration, this device cannot access the network."
-msgstr ""
+msgstr "Με βάση τις ρυθμίσεις του παρόχου, η συσκευή αυτή δεν μπορεί να έχει πρόσβαση στο δίκτυο."
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/ShowLocalAccount.pm
 msgid "Account created"
-msgstr ""
+msgstr "Ο λογαριασμός δημιουργήθηκε"
 
 # html/captive-portal/templates/emails/emails-guest_email_activation.html
 # html/captive-portal/templates/emails/emails-guest_email_preregistration.html
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 msgid "Activate Access"
-msgstr ""
+msgstr "Ενεργοποίηση Πρόσβασης"
 
 # pf::person::FIELDS
 msgid "Address"
-msgstr ""
+msgstr "Διεύθυνση"
 
 # html/captive-portal/templates/ssl_inspection/opera.html
 msgid "After clicking <i>Install</i>, another dialogue will appear, asking if you are <i>sure you want to trust this issuer</i>. Click <i>OK</i> here."
-msgstr ""
+msgstr "Αφού πατήσετε το <i>Install</i>, θα εμφανιστεί άλλο ένα παράθυρο που θα σας ρωτάει αν <i>είστε σίγουροι ότι θέλετε να εμπιστευτείτε τον εκδότη</i?. Πατήστε το <i>OK</i>."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 msgid "After registering, you will be given temporary network access for %s minutes. In order to complete your registration, you will need to click on the link emailed to you."
-msgstr ""
+msgstr "Μετά την καταχώρησή σας, θα σας δοθεί προσωρινή πρόσβαση στο δίκτυο για %s λεπτά. Για να ολοκληρώσετε την εγγραφή σας θα πρέπει να κάνετε κλικ στον σύνδεσμο που σας στάλθηκε με email."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Always trust certificate"
-msgstr ""
+msgstr "Εμπιστεψου πάντα το πιστοποιητικό"
 
 # html/captive-portal/templates/emails/emails-guest_admin_pregistration.html
 msgid "An account has been created for you to access our network."
-msgstr ""
+msgstr "Ένας λογαριασμός έχει δημιουργηθεί για εσάς ώστε να έχετε πρόσβαση στο δίκτυο."
 
 # html/captive-portal/templates/account.html
 msgid "An e-mail with the login informations will follow in the next minutes"
-msgstr ""
+msgstr "Στα επόμενα λεπτά θα ακολουθήσει ένα email με τις πληροφορίες σύνδεσης"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Root.pm
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Application.pm
 msgid "An error occured"
-msgstr ""
+msgstr "Παρουσιάστηκε ένα λάθος"
 
 # html/captive-portal/templates/lost_stolen.html
 msgid "An error occured while trying to declare the device %s as lost or stolen."
-msgstr ""
+msgstr "Παρουσιάστηκε ένα λάθος κατά την δήλωση της συσκευής %s ως απωλεσθείσα ή κλεμμένη."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "An type and activation code is required"
-msgstr ""
+msgstr "Απαιτείατι τύπος και κωδικός ενεργοποίησης"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/SSL_Inspection.pm
 msgid "Android certificate installation"
-msgstr ""
+msgstr "Εγκατάσταση πιστοποιητικού για Android"
 
 # html/captive-portal/templates/ssl_inspection/android.html
 msgid "Android certificate installation confirmation"
-msgstr ""
+msgstr "Επιβεβαίωση εγκατάστασης πιστοποιητικού για Android"
 
 # html/captive-portal/templates/ssl_inspection/android.html
 msgid "Android certificate name prompt"
-msgstr ""
+msgstr "Ερώτηση ονόματος πιστοποιητικού για Android"
 
 # html/captive-portal/templates/ssl_inspection/android.html
 msgid "Android devices vary greatly, so you may not see exactly the same thing if you are using another device or a different version of Android; however, the general process and wording should be the same."
-msgstr ""
+msgstr "Οι συσκευές Android έχουν μεγάλες διαφορές, οπότε ίσως να μην δείτε ακριβώς το ίδιο αν χρησιμοποιείτε άλλη συσκευή ή διαφορετική έκδοση Android. Παρόλαυτα γενικά η διαδικασία και η διατύπωση πρέπει να είναι παρόμοια."
 
 # pf::person::FIELDS
 msgid "Anniversary"
-msgstr ""
+msgstr "Επέτειος"
 
 # pf::person::FIELDS
 msgid "Apartment_number"
-msgstr ""
+msgstr "Αριθμός_Διαμερίσματος"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "At the <i>Completing the Certificate Import Wizard</i> screen, press the <i>Finish</i> button."
-msgstr ""
+msgstr "Στην οθόνη <i>Ολοκλήρωση του Οδηγού Εισαγωγής Πιστοποιητικού</i>, πατήσετε το κουμπί <i>Finish</i>."
 
 # html/captive-portal/templates/mfa/TOTP.html
 msgid "Authentication code"
-msgstr ""
+msgstr "Κωδικός Πιστοποίησης"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Back at the main wizard screen, the <i>Certificate store</i> box should now show <i>Trusted Root Certification Authorities</i>. Press <i>Next</i> again."
-msgstr ""
+msgstr "Πίσω στην αρχική οθόνη του οδηγού, το κουτάκι <i>Certificate store</i> πρέπει πλέον αν δείχνει <i>Trusted Root Certification Authorities</i>. Πατήστε ξανά στο <i>Next</i>."
 
 # html/captive-portal/templates/status.html
 msgid "Bandwidth balance "
-msgstr ""
+msgstr "Υπολειπόμενος όγκος δεδομένων "
 
 # html/captive-portal/templates/activation/sponsor_login.html
 msgid "Before we proceed with guest activation, we need you to authenticate."
-msgstr ""
+msgstr "Πριν προχωρήσουμε στην ενεργοποίηση επισκέπτη, απαιτείται να πιστοποιηθείτε."
 
 # html/captive-portal/templates/emails/emails-billing_stripe_customer.subscription.deleted.html
 msgid "Billing cancellation"
-msgstr ""
+msgstr "Ακύρωση χρέωσης"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 msgid "Billing invoice"
-msgstr ""
+msgstr "Αποδεικτικό χρέωσης"
 
 # pf::person::FIELDS
 msgid "Birthday"
-msgstr ""
+msgstr "Ημεροηνία γέννησης"
 
 # html/captive-portal/templates/ssl_inspection/firefox.html
 msgid "Browse for the certificate file you downloaded earlier and select it."
-msgstr ""
+msgstr "Προηγηθείτε στο αρχείο πιστοποιητικού που κατεβάσατε νωρίτερα και επιλέξτε το."
 
 # pf::person::FIELDS
 msgid "Building_number"
-msgstr ""
+msgstr "Αριθμός_κτιρίου"
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 msgid "CVE"
-msgstr ""
+msgstr "CVE"
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 msgid "CVSS score"
-msgstr ""
+msgstr "CVSS score"
 
 # html/captive-portal/templates/status.html
 # html/captive-portal/templates/status/billing_cancel_subscription.html
 msgid "Cancel"
-msgstr ""
+msgstr "Άκυρο"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 msgid "Cancel subscription"
-msgstr ""
+msgstr "Ακύρωση συνδρομής"
 
 # pf::person::FIELDS
 msgid "Cell_phone"
-msgstr ""
+msgstr "Κινητό_τηλέφωνο"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/TLSEnrollment.pm
 # html/captive-portal/templates/pki_provider/packetfence_local.html
 # html/captive-portal/templates/pki_provider/packetfence_pki.html
 # html/captive-portal/templates/pki_provider/scep.html
 msgid "Certificate generation for EAP TLS connection"
-msgstr ""
+msgstr "Παραγωγή πιστοποιητικού για σύνδεση τύπου EAP TLS"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/SSL_Inspection.pm
 msgid "Certificate installation"
-msgstr ""
+msgstr "Εγκατάσταση πιστοποιητικού"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Certificate is not trusted"
-msgstr ""
+msgstr "Το πιστοποιητικό δεν είναι έμπιστο"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Certificate is trusted"
-msgstr ""
+msgstr "Το πιστοποιητικό είναι έμπιστο"
 
 # html/captive-portal/templates/ssl_inspection/common.html
 msgid "Certificate test failed. Please download the certificate and install it by following the instructions, or contact your administrator."
-msgstr ""
+msgstr "Η δοκιμή πιστοποιητικού απέτυχε. Παρακαλώ κατεβάστε και εγκαταστήστε το πιστοποιητικό ακολουθώντας τις οδηγίες ή επικοινωνήστε με τον διαχειριστή σας."
 
 # html/captive-portal/templates/status.html
 msgid "Change my password"
-msgstr ""
+msgstr "Αλλαγή του κωδικού μου"
 
 # html/captive-portal/templates/status/reset_password.html
 msgid "Change your password"
-msgstr ""
+msgstr "Αλλαγή του κωδικού σας"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "Choose the access duration"
-msgstr ""
+msgstr "Επιλέξτε την διάρκεια πρόσβασης"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/SSL_Inspection.pm
 msgid "Chrome OS certificate installation"
-msgstr ""
+msgstr "Εγκατάσταση πιστοποιητικού για το Chrome OS"
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "Chrome Settings menu option"
-msgstr ""
+msgstr "Επιλογή στο μενού ρυθμίσεων Chrome"
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "Chrome Settings page"
-msgstr ""
+msgstr "Σελίδα ρυθμίσεων του Chrome"
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "Chrome certificate authority prompt"
-msgstr ""
+msgstr "Prompt αρχής πιστοποίησης του Chrome"
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "Chrome certificate manager"
-msgstr ""
+msgstr "Διαχείριση πιστοποιητικών του Chrome"
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "Chrome download bar"
-msgstr ""
+msgstr "Γραμμή λήψεων του Chrome"
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "Chrome file browser"
-msgstr ""
+msgstr "Εξερεύνηση αρχείων του Chrome"
 
 # html/captive-portal/templates/provisioner/kandji.html
 msgid "Click here to access the enrollment page"
-msgstr ""
+msgstr "Κάντε κλικ εδώ για πρόσβαση στη σελίδα εγγραφής"
 
 # pf::person::FIELDS
 msgid "Company"
-msgstr ""
+msgstr "Εταιρία"
 
 # html/captive-portal/templates/status.html
 msgid "Computer name "
-msgstr ""
+msgstr "Όνομα υπολογιστή "
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Authentication/SMS.pm
 msgid "Confirm Mobile Phone Number"
-msgstr ""
+msgstr "Επιβεβαιώστε τον Αριθμό Κινητού Τηλεφώνου"
 
 # html/captive-portal/templates/status/reset_password.html
 msgid "Confirm your password"
-msgstr ""
+msgstr "Επιβεβαίωστε τον κωδικό σας"
 
 # html/captive-portal/templates/account.html
 # html/captive-portal/templates/challenge.html
@@ -331,151 +331,151 @@ msgstr ""
 # html/captive-portal/templates/ssl_inspection.html
 # html/captive-portal/templates/survey.html
 msgid "Continue"
-msgstr ""
+msgstr "Συνέχεια"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 msgid "Cost"
-msgstr ""
+msgstr "Κόστος"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "Could not find unregistration date for this activation code."
-msgstr ""
+msgstr "Δεν βρέθηκε ημερομηνία απεγγραφής για αυτόν τον κωδικό ενεργοποίησης."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "Could not find unregistration date or role for this activation code."
-msgstr ""
+msgstr "Δεν βρέθηκε ημερομηνία απεγγραφής ή ρόλος για αυτόν τον κωδικό ενεργοποίησης."
 
 # html/captive-portal/templates/account.html
 msgid "Created account %s"
-msgstr ""
+msgstr "Δημιουργήθηκε ο λογαριασμός %s"
 
 # html/captive-portal/templates/stripe-customer-portal/select-account.html
 msgid "Created on"
-msgstr ""
+msgstr "Δημιουργήθηκε στις"
 
 # html/captive-portal/templates/status.html
 msgid "Current Role "
-msgstr ""
+msgstr "Τρέχων Ρόλος "
 
 # pf::person::FIELDS
 msgid "Custom_field_1"
-msgstr ""
+msgstr "Προσαρμοσμένο_πεδίο_1"
 
 # pf::person::FIELDS
 msgid "Custom_field_2"
-msgstr ""
+msgstr "Προσαρμοσμένο_πεδίο_2"
 
 # pf::person::FIELDS
 msgid "Custom_field_3"
-msgstr ""
+msgstr "Προσαρμοσμένο_πεδίο_3"
 
 # pf::person::FIELDS
 msgid "Custom_field_4"
-msgstr ""
+msgstr "Προσαρμοσμένο_πεδίο_4"
 
 # pf::person::FIELDS
 msgid "Custom_field_5"
-msgstr ""
+msgstr "Προσαρμοσμένο_πεδίο_5"
 
 # pf::person::FIELDS
 msgid "Custom_field_6"
-msgstr ""
+msgstr "Προσαρμοσμένο_πεδίο_6"
 
 # pf::person::FIELDS
 msgid "Custom_field_7"
-msgstr ""
+msgstr "Προσαρμοσμένο_πεδίο_7"
 
 # pf::person::FIELDS
 msgid "Custom_field_8"
-msgstr ""
+msgstr "Προσαρμοσμένο_πεδίο_8"
 
 # pf::person::FIELDS
 msgid "Custom_field_9"
-msgstr ""
+msgstr "Προσαρμοσμένο_πεδίο_9"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 msgid "Date Of Birth"
-msgstr ""
+msgstr "Ημεροηνία Γέννησης"
 
 # html/captive-portal/templates/status.html
 msgid "Declare as lost or stolen"
-msgstr ""
+msgstr "Δήλωση ως απωλεσθείσα ή κλεμμένη"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_provisioning_policy
 msgid "Default Provisioning policy"
-msgstr ""
+msgstr "Default Provisioning policy"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_admin_sso_policy
 msgid "Default admin SSO policy"
-msgstr ""
+msgstr "Default admin SSO policy"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_pending_policy
 msgid "Default pending policy"
-msgstr ""
+msgstr "Default pending policy"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_policy
 msgid "Default portal policy"
-msgstr ""
+msgstr "Default portal policy"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_registration_policy
 msgid "Default registration policy"
-msgstr ""
+msgstr "Default registration policy"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Depending on your browser and configuration, you may see a <i>Security Warning</i> which asks if you're sure you want to open the file; if so, click <i>Open</i> once more."
-msgstr ""
+msgstr "Ανάλογα με τον πλοηγητή και τις ρυθμίσεις σας, ίσως δείτε ένα <i>Security Warning</i> που θα σας ρωτά αν είστε σίγουροι ότι θέλετε να ανοίξετε το αρχείο. Στην περίπτωση αυτή πατήστε ξανά <i>Open</i>."
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Depending on your browser and configuration, you will probably be asked whether you would like to open the file or save it; choose <i>Open</i>. Depending on your browser, you may then have to click <i>Open</i> a second time."
-msgstr ""
+msgstr "Ανάλογα με τον πλοηγητή και τις ρυθμίσεις σας, πιθανόν να ερωτηθείτε αν θέλετε να ανοίξετε το αρχείο ή να το αποθηκεύσετε. Επιλέτε <i>Open</i>. Ανάλογα με τον πλοηγητή σας, μπορεί να χρειαστεί να κάνετε κλικ στο <i>Open</i> και δεύτερη φορά."
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "Depending on your configuration, you may be prompted to save the certificate. If so, select a folder to save the file in, and then click <i>Save</i>. (In Chrome OS and some other configurations, the file may simply download immediately.) When the download has finished, the icon will flash in the download bar at the bottom of the screen50"
-msgstr ""
+msgstr "Ανάλογα με τις ρυθμίσεις σας, μπορεί να ερωτηθείτε να σώσετε το πιστοποιητικό. Στην περίπτωση αυτή, επιλέτε ένα φάκελο όπου θα αποθηκεύσετε το αρχείο, και κάντε κλικ στο <i>Save</i> (στο Chrome OS και σε κάποιες άλλες περιπτώσεις, το αρχείο απλά θα κατέβει αμέσως). Όταν η λήψη ολοκληρωθεί, θα αναβοσβήσει το εικονίδιο στη γραμμή λήψεων κάτω στην οθόνη"
 
 # html/captive-portal/templates/ssl_inspection/android.html
 msgid "Depending on your device and its configuration, you may be prompted to enter your device PIN. If you don't have a PIN set, you maybe prompted to create one."
-msgstr ""
+msgstr "Ανάλογα με την συσκευή και τις ρυθμίσεις της, πιθανόν να σας ζητηθεί να εισάγετε το PIN της συσκευής σας. Αν δεν έχει ορίσει PIN, πιθανόν να σας ζητηθεί να δημιουργήσετε ένα."
 
 # html/captive-portal/templates/billing/tier.html
 msgid "Description"
-msgstr ""
+msgstr "Περιγραφή"
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 msgid "Detail link"
-msgstr ""
+msgstr "Σύνδεσμος λεπτομερειών"
 
 # html/captive-portal/templates/device-registration/registration.html
 msgid "Device MAC address"
-msgstr ""
+msgstr "Διεύθυνση MAC συσκευής"
 
 # html/captive-portal/templates/device-registration/registration.html
 msgid "Device Type"
-msgstr ""
+msgstr "Τύπος Συσκευής"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/DeviceRegistration.pm
 msgid "Device registration landing"
-msgstr ""
+msgstr "Διαδικασία καταχώρησης συσκευής"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/DeviceRegistration.pm
 msgid "Device registration module is not enabled"
-msgstr ""
+msgstr "Δεν έχει ενεργοποιηθεί το module καταχώρησης συσκευών"
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 msgid "Do NOT authorize access if you were not expecting this guest."
-msgstr ""
+msgstr "Μην εξουσιοδοτήσετε την πρόσβαση αν αυτός ο επισκέπτης δεν είναι αναμενόμενος"
 
 # html/captive-portal/templates/waiting.html
 msgid "Do not close this page until your access has been approved"
-msgstr ""
+msgstr "Μην κλείσετε αυτή τη σελίδα μέχρι να εγκριθεί η πρόσβασή σας"
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "Do not double-click the file after the download has finished; instead, click the Chrome menu (usually appearing as three horizontal lines) in the top right corner. Then, click the <i>Settings</i> option."
-msgstr ""
+msgstr "Μην κάνετε διπλό κλικ στο αρχείο μετά την ολοκλήρωση της λήψης του. Αντίθετα, κάντε κλικ στο μενού του Chrome (έχει τη μορφή τριών οριζόντων γραμμών) στην πάνω δεξιά γωνία. Μετά κάντε κλικ στην επιλογή <i>Ρυθμίσει</i>."
 
 # html/captive-portal/templates/provisioner/intune.html
 msgid "Download Android Agent"
-msgstr ""
+msgstr "Λήψη του Android Agent"
 
 # html/captive-portal/templates/ssl_inspection/android.html
 # html/captive-portal/templates/ssl_inspection/chrome.html
@@ -486,21 +486,21 @@ msgstr ""
 # html/captive-portal/templates/ssl_inspection/other.html
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Download Certificate"
-msgstr ""
+msgstr "Λήψη Πιστοποιητικού"
 
 # html/captive-portal/templates/provisioner/intune.html
 msgid "Download IOS Agent"
-msgstr ""
+msgstr "Λήψη του IOS Agent"
 
 # html/captive-portal/templates/provisioner/intune.html
 # html/captive-portal/templates/provisioner/sentinelone.html
 msgid "Download Mac OSX Agent"
-msgstr ""
+msgstr "Λήψη του Mac OSX Agent"
 
 # html/captive-portal/templates/provisioner/intune.html
 # html/captive-portal/templates/provisioner/sentinelone.html
 msgid "Download Windows Agent"
-msgstr ""
+msgstr "Λήψη του Windows Agent"
 
 # html/captive-portal/templates/ssl_inspection/android.html
 # html/captive-portal/templates/ssl_inspection/chrome.html
@@ -510,99 +510,99 @@ msgstr ""
 # html/captive-portal/templates/ssl_inspection/osx.html
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Download the certificate to your device."
-msgstr ""
+msgstr "Κατεβάστε το πιστοποιητικό στην συσκευή σας."
 
 # html/captive-portal/templates/pki_provider/packetfence_pki.html
 msgid "E-mail"
-msgstr ""
+msgstr "E-mail"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 # html/captive-portal/templates/account.html
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 # pf::person::FIELDS
 msgid "Email"
-msgstr ""
+msgstr "Email"
 
 # html/captive-portal/templates/activation/email.html
 msgid "Email activation code has been verified. Access granted until : %s"
-msgstr ""
+msgstr "Ο κωδικός ενεργοποίησης email έχει επιβεβαιωθεί. Επιτράπηκε η πρόσβαση μέχρι: %s"
 
 # /usr/local/pf/conf/authentication.conf.example email
 msgid "Email-based registration"
-msgstr ""
+msgstr "Εγγραφή με χρήση του email"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 msgid "Enter a valid telephone number"
-msgstr ""
+msgstr "Εισάγετε έναν έγκυρο αριθμό τηλεφώνου"
 
 # html/captive-portal/templates/security_events/bandwidth_expiration.html
 msgid "Expiration"
-msgstr ""
+msgstr "Λήξη"
 
 # html/captive-portal/templates/emails/emails-guest_password_of_the_day.html
 msgid "Expire"
-msgstr ""
+msgstr "Λήγει"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 msgid "Extend access duration"
-msgstr ""
+msgstr "Ανανέωση διάρκειας πρόσβασης"
 
 # html/captive-portal/templates/status.html
 msgid "Extend your access"
-msgstr ""
+msgstr "Ανανεώστε την πρόσβασή σας"
 
 # html/captive-portal/templates/emails/emails-guest_email_activation.html
 msgid "Failure to do so within %s minutes will result in a termination of your network access."
-msgstr ""
+msgstr "Αν αποτύχετε να το κάνετε εντός %s λεπτών θα έχει ως αποτέλεσμα τον τερματισμό της πρόσβασής σας στο δίκτυο."
 
 # html/captive-portal/templates/ssl_inspection/firefox.html
 msgid "Firefox CA trust prompt"
-msgstr ""
+msgstr "Prompt του Firefox για αποδοχή της CA"
 
 # html/captive-portal/templates/ssl_inspection/firefox.html
 msgid "Firefox cannot get ssl updates from our servers. If you start having web page connection issues again, you will need to come back to this page and redo steps to get the newest certificate."
-msgstr ""
+msgstr "Ο Firefox δεν μπορεί να λάβει ενημερώσεις ssl από τους διακομιστές μας. Αν έχετε κανά προβλήματα σύνδεση σε ιστοσελίδες, απαιτείται να επισκεφτείτε ξανά αυτή τη σελίδα και να επαναλάβετε τα βήματα για να λάβετε το νεότερο πιστοποιητικό."
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/SSL_Inspection.pm
 msgid "Firefox certificate installation"
-msgstr ""
+msgstr "Εγκατάσταση πιστοποιητικού στο Firefox"
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 # pf::person::FIELDS
 msgid "Firstname"
-msgstr ""
+msgstr "Όνομα"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 # pf::person::FIELDS
 msgid "Gender"
-msgstr ""
+msgstr "Φύλο"
 
 # html/captive-portal/templates/pki_provider/packetfence_local.html
 # html/captive-portal/templates/pki_provider/packetfence_pki.html
 # html/captive-portal/templates/pki_provider/scep.html
 msgid "Generate certificate"
-msgstr ""
+msgstr "Παραγωγή πιστοποιητικού"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "Guest Sponsor Login"
-msgstr ""
+msgstr "Είσοδος Χορηγού Επισκεπτών"
 
 # html/captive-portal/templates/emails/emails-guest_email_activation.html
 # html/captive-portal/templates/emails/emails-guest_email_preregistration.html
 msgid "Guest access to the network was requested using this email address."
-msgstr ""
+msgstr "Ζητήθηκε πρόσβαση επισκέπτη σε αυτό το δίκτυο με χρήση αυτής της διεύθυνσης email."
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 msgid "Guest request"
-msgstr ""
+msgstr "Αίτημα επισκέπτη"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_guest_policy
 msgid "Guest signup"
-msgstr ""
+msgstr "Εγγραφή επισκέπτη"
 
 # html/captive-portal/templates/stripe-customer-portal/select-account.html
 msgid "Has an active subscription"
-msgstr ""
+msgstr "Έχει ενεργή συνδρομή"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 # html/captive-portal/templates/emails/emails-billing_stripe_customer.subscription.deleted.html
@@ -619,71 +619,71 @@ msgstr ""
 # html/captive-portal/templates/emails/emails-guest_sponsor_preregistration.html
 # html/captive-portal/templates/emails/emails-security_event-triggered.html
 msgid "Hello"
-msgstr ""
+msgstr "Γειά σας"
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 # html/captive-portal/templates/emails/emails-security_event-triggered.html
 msgid "Here is the device information"
-msgstr ""
+msgstr "Αυτές είναι οι πληροφορίες συσκευής"
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 msgid "Here is the information the guest provided with registration form"
-msgstr ""
+msgstr "Αυτές είναι οι πληροφορίες που παρείε ο επισκέπτης στην φόρμα καταχώρησης"
 
 # html/captive-portal/templates/provisioner/dpsk.html
 msgid "Here is your password to connect on the following SSID."
-msgstr ""
+msgstr "Αυτός είναι ο κωδικός σας για σύνδεση στο ακόλουθο SSID."
 
 # html/captive-portal/templates/emails/emails-guest_password_of_the_day.html
 msgid "Here the new password updated for the Password Of the Day"
-msgstr ""
+msgstr "Αυτός είναι ο νέος ανανεωμένος κωδικός για Κωδικός Ημέρας"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Here, you will be asked whether to always trust Securly certificates. Click <i>Always Trust</i>."
-msgstr ""
+msgstr "Εδώ, θα ερωτηθείτε αν εμπιστεύεστε πάντως τα πιστοποιητικά Ασφάλειας. Κάντε κλικ στο <i>Always Trust</i>."
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 # html/captive-portal/templates/emails/emails-security_event-triggered.html
 msgid "Hostname"
-msgstr ""
+msgstr "Όνομα υπολογιστή"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Widget/Field/AUP.pm
 msgid "I accept the terms"
-msgstr ""
+msgstr "Αποδέχομαι τους όρους"
 
 # html/captive-portal/templates/sms/validate.html
 msgid "I don't have a PIN"
-msgstr ""
+msgstr "Δεν έχω PIN"
 
 # lib/pf/web.pm
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 # html/captive-portal/templates/provisioner/mobileiron.html
 msgid "If you are using a Windows phone"
-msgstr ""
+msgstr "Αν χρησιμοποιείτε τηλέφωνο με Windows"
 
 # html/captive-portal/templates/provisioner/mobileiron.html
 msgid "If you are using an Android phone or tablet"
-msgstr ""
+msgstr "Αν χρησιμοποιείτε τηλέφωνο ή tablet με Android"
 
 # html/captive-portal/templates/provisioner/mobileiron.html
 msgid "If you are using an Apple phone or tablet"
-msgstr ""
+msgstr "Αν χρησιμοποιείτε τηλέφωνο ή tablet τύπου Apple"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "If you did not see the prompts mentioned above you will need to manually <i>Trust</i> the newly installed certificate. Continue with the following steps."
-msgstr ""
+msgstr "Αν δεν είδατε τις ερωτήσεις που αναφέρθηκαν πριν θα χρειαστεί να <i>Εμπιστευτείτε</i> με το χέρι το νέο εγκατεστημένο πιστοποιητικό. Συνεχίστε στα εξής βήματα."
 
 # html/captive-portal/templates/ssl_inspection/other.html
 msgid "If you have a device that does not fall under one of the categories located on the page menus above, you will need to figure out how to install the certificate on your own device. We do not support any devices outside of the ones listed on the page menus. You may download our certificate below."
-msgstr ""
+msgstr "Αν δεν διαθέτε συσκευή που εμπίπτει σε μια από τις κατηγορίες που αναφέρονται στα μενού παραπάνω, θα χρειατεί να βρείτε εσείς το πως θα εγκαταστήσετε το πιστοποιητικό στη συσκευή σας. Δεν υποστηρίζονται συσκευές που δεν εμπίπτουν σε αυτές που αναφέρονται στα μενού. Μπορείτε να κατεβάσετε το πιστοποιητικό μας παρακάτω."
 
 # html/captive-portal/templates/ssl_inspection/ios.html
 msgid "If you have a passcode set, you may be required to enter it. If you don't have one set, you may be prompted to create one, depending on your device configuration."
-msgstr ""
+msgstr "Αν έχετε ορίσει passcode, ίσως απαιτηθεί να το εισάγετε. Αν δεν έχετε ορίσει ένα, ίσως ερωτηθείτε να δημιουργήσετε ένα, ανάλογα με τις ρυθμίσεις της συσκευής σας."
 
 # html/captive-portal/templates/emails/emails-guest_email_preregistration_confirmed.html
 # html/captive-portal/templates/emails/emails-guest_local_account_creation.html
@@ -691,237 +691,237 @@ msgstr ""
 # html/captive-portal/templates/emails/emails-guest_sponsor_confirmed.html
 # html/captive-portal/templates/emails/emails-guest_sponsor_preregistration.html
 msgid "If you have any questions regarding the registration process please contact your local support staff."
-msgstr ""
+msgstr "Αν έχετε απορίες σχετικά με την διαδικασία καταχώρησης παρακαλώ επικοινωνήστε με το προσωπικό υπσοτήριξής σας."
 
 # html/captive-portal/templates/release.html
 # html/captive-portal/templates/scan-in-progress.html
 # html/captive-portal/templates/scan.html
 # html/captive-portal/templates/waiting.html
 msgid "If you have scripting turned off, you will not be automatically redirected. Please enable scripting or open a new browser window from time to time to see if your access was enabled."
-msgstr ""
+msgstr "Αν έχετε απενεργοποιημένο το scripting, δεν θα ανακατευθυνθείτε αυτόματα. Παρακαλώ ενεργοποιήστε το scripting ή ανοίξτε νέο παράθυρο στον πλογητή σας για να δείτε αν έχει ενεργοποιηθεί η πρόσβασή σας."
 
 # html/captive-portal/templates/pki_provider/packetfence_local.html
 # html/captive-portal/templates/pki_provider/packetfence_pki.html
 # html/captive-portal/templates/pki_provider/scep.html
 msgid "In order to complete the registration process, you need to generate your user certificate."
-msgstr ""
+msgstr "Για να ολοκληρωθεί η διαδικασία καταχώρησης, απαιτείται να παράγετε το πιστοποιητικό χρήστη."
 
 # html/captive-portal/templates/provisioner/windows.html
 msgid "In order to complete your connection to the secure SSID, you will need to run the agent available below."
-msgstr ""
+msgstr "Για να ολοκληρωθεί η σύνδεσή σας στο ασφαλές SSID, χρειάζεται να εκτελέσετε τον agent που είναι διαθέσιμος παρακάτω."
 
 # html/captive-portal/templates/ssl_inspection/firefox.html
 msgid "In the Certificate Manager window click on the <i>Authorities</i> Tab and click on <i>Import</i>."
-msgstr ""
+msgstr "Στο παράθυρο του Certificate Manager κάντε κλικ στην καρτέλα <i>Authorities</i> και μετά κλικ στο <i>Import</i>."
 
 # html/captive-portal/templates/ssl_inspection/firefox.html
 msgid "In the Options page click <i>Advanced</i> on the lefthand side. Under Requests make sure <i>Select One automatically</i> is selected and click the button <i>View Certificates</i> at the bottom."
-msgstr ""
+msgstr "Στη σελίδα Επιλογές κάντε κλικ στην αριστερή πλευρά στο <i>Advanced</i>. Κάτω από το Αιτήματα σιγουρευτείτε ότι είναι επιλεγμένο το <i>Select One automatically</i> και κάντε κλικ κάτω στο κουμπί <i>View Certificates</i>."
 
 # html/captive-portal/templates/ssl_inspection/firefox.html
 msgid "In your firefox browser click on the <i>menu</i> botton at the top right of your browser and select <i>Options</i>."
-msgstr ""
+msgstr "Στο πλοηγητή Firefox κάντε κλικ στο κουμπί <i>menu</i> πάνω δεξιά και επιλέξτε το <i>Options</i>."
 
 # html/captive-portal/templates/provisioner/mobileiron.html
 # html/captive-portal/templates/provisioner/windows.html
 msgid "Install Agent"
-msgstr ""
+msgstr "Εγκατάσταση Agent"
 
 # html/captive-portal/templates/provisioner/android.html
 # html/captive-portal/templates/provisioner/mobileconfig.html
 msgid "Install wireless profile"
-msgstr ""
+msgstr "Εγκατάσταση ασύρματου προφίλ"
 
 # html/captive-portal/templates/provisioner/mobileconfig.html
 msgid "Install wireless profile anyway"
-msgstr ""
+msgstr "Εγκατάσταση του ασύρματου προφίλ ούτως ή άλλως"
 
 # html/captive-portal/templates/billing/index.html
 msgid "Internet Access Package"
-msgstr ""
+msgstr "Πακέτο Πρόσβασης στο Internet"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "KeychainAccess"
-msgstr ""
+msgstr "KeychainAccess"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "KeychainAccess application"
-msgstr ""
+msgstr "Εφαρμογή KeychainAccess"
 
 # pf::person::FIELDS
 msgid "Lang"
-msgstr ""
+msgstr "Γλώσσα"
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 # pf::person::FIELDS
 msgid "Lastname"
-msgstr ""
+msgstr "Επώνυμο"
 
 # /usr/local/pf/conf/authentication.conf.example file1
 msgid "Legacy Source"
-msgstr ""
+msgstr "Παλαιού τύπου πηγή"
 
 # /usr/local/pf/conf/authentication.conf.example local
 msgid "Local Users"
-msgstr ""
+msgstr "Τοπικού Χρήστες"
 
 # html/captive-portal/templates/activation/sponsor_login.html
 # html/captive-portal/templates/oauth2/landing.html
 # html/captive-portal/templates/saml.html
 # html/captive-portal/templates/status/login.html
 msgid "Login"
-msgstr ""
+msgstr "Είσοδος"
 
 # html/captive-portal/templates/status/login.html
 msgid "Login to manage registered devices"
-msgstr ""
+msgstr "Είσοδος για διαχείριση καταχωρημένων συσκευών"
 
 # html/captive-portal/templates/networklogoff.html
 msgid "Logoff"
-msgstr ""
+msgstr "Αποσύνδεση"
 
 # html/captive-portal/templates/status.html
 # html/captive-portal/templates/status/menu.html
 msgid "Logout"
-msgstr ""
+msgstr "Αποσύνδεση"
 
 # html/captive-portal/templates/status.html
 # lib/pf/web.pm
 msgid "MAC"
-msgstr ""
+msgstr "MAC"
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 # html/captive-portal/templates/emails/emails-security_event-triggered.html
 msgid "MAC Address"
-msgstr ""
+msgstr "Διεύθυνση MAC"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_mfa_policy
 msgid "MFA policy"
-msgstr ""
+msgstr "Πολιτική MFA"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/SSL_Inspection.pm
 msgid "Mac OSX certificate installation"
-msgstr ""
+msgstr "Εγκατάσταση πιστοποιητικού σε Mac OSX"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Make sure <i>System</i> is selected in the left column and then double click on your certificate."
-msgstr ""
+msgstr "Σιγουρευτείτε ότι είναι επιλεγμένο το <i>System</i> στην αριστερή στήλη και κάντε διπλό κλικ στο πιστοποιητικό σας."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Make sure <i>Trust</i> is expanded and select the dropdown next to <i>When using this certificate:</i> and change it to <i>Always Trust</i>."
-msgstr ""
+msgstr "Σιγουρευτείτε ότι η επιλογή <i>Trust</i> έχει ανοίξει και επιλέξτε το κάτω βελάκι δίπλα στο <i>When using this certificate:</i> και αλλάξετε το σε <i>Always Trust</i>."
 
 # html/captive-portal/templates/stripe-customer-portal/select-account.html
 msgid "Manage"
-msgstr ""
+msgstr "Διαχείριση"
 
 # html/captive-portal/templates/max-nodes-reached.html
 msgid "Manage your devices"
-msgstr ""
+msgstr "Διαχείριση των συσκευών σας"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 msgid "Mobile provider"
-msgstr ""
+msgstr "Πάροχος Κινητής τηλεφωνίας"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/NetworkLogoff.pm
 msgid "Network Logoff"
-msgstr ""
+msgstr "Αποσύνδεση από το Δίκτυο"
 
 # html/captive-portal/templates/emails/emails-guest_email_activation.html
 msgid "Network access activation"
-msgstr ""
+msgstr "Ενεργοποίηση πρόσβασης στο δίκτυο"
 
 # html/captive-portal/templates/release.html
 # html/captive-portal/templates/scan-in-progress.html
 msgid "Network access has been granted"
-msgstr ""
+msgstr "Η πρόσβαση στο δίκτυο έχει εγκριθεί"
 
 # html/captive-portal/templates/status.html
 msgid "Network subscriptions"
-msgstr ""
+msgstr "Συνδρομές δικτύου"
 
 # lib/pf/pfcron/task/password_of_the_day.pm
 msgid "New password of the day"
-msgstr ""
+msgstr "Νέος κωδικός ημέρας"
 
 # html/captive-portal/templates/ssl_inspection/opera.html
 msgid "Next, a dialogue will appear, asking if you would like to install the certificate authority. Click <i>Install</i>."
-msgstr ""
+msgstr "Στη συνέχεια, ένα παράθυρο θα εμφανιστεί, όπου θα ερωτηθείτε αν θέλετε να εγκαταστήσετε την αρχή πιστοποίησης. Κάντε κλικ στο <i>Install</i>."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Next, you might be prompted to enter in your login information to make the change. After entering your login information, click <i>Update Settings</i>."
-msgstr ""
+msgstr "Στη συνέχεια, μπορεί να σας ζητηθεί να εισάγετε τις πληροφορίες σύνδεσής σας για να κάνετε την αλλαγή. Αφού εισάγετε τις πληροφορίες σύνδεσής σας, κάντε κλικ στο <i>Update Settings</i>."
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Next, you will be presented with a <i>Certificate</i> dialogue. Click the <i>Install Certificate...</i> button near the bottom of this window."
-msgstr ""
+msgstr "Στη συνέχεια, θα σας εμφανιστεί ένα παράθυρο <i>Certificate</i>. Κάντε κλικ στο κουμπί <i>Install Certificate...</i> κάτω στο παράθυρο."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Next, you will be prompted to enter the user name and password you use to log on to the computer; do so, and click <i>Modify Keychain</i>."
-msgstr ""
+msgstr "Στη συνέχεια, θα σας ζητηθεί να εισάγετε το όνομα χρήστη και τον κωδικό που χρησιμοποιείτε για να συνδεθείτε στον υπολογιστή σας. Κάντε το και κάντε κλικ στο <i>Modify Keychain</i>."
 
 # pf::person::FIELDS
 msgid "Nickname"
-msgstr ""
+msgstr "Σύντομο όνομα"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "No active sponsor source for this Connection Profile."
-msgstr ""
+msgstr "Δεν υπάρχει ενεργή πηγή χορηγού για αυτό το Προφίλ Σύνδεσης."
 
 # html/captive-portal/templates/stripe-customer-portal/select-account.html
 msgid "No active subscription"
-msgstr ""
+msgstr "Δεν υπάρχει ενεργή συνδρομή"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Node/Manager.pm
 msgid "Not allowed to deregister %s"
-msgstr ""
+msgstr "Δεν επιτρέπεται να απεγγραφεί το %s"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Node/Manager.pm
 msgid "Not logged in or node ID %s is not known"
-msgstr ""
+msgstr "Δεν έχει συνδεθεί ή το node ID %s δεν είναι γνωστό"
 
 # pf::person::FIELDS
 msgid "Notes"
-msgstr ""
+msgstr "Σημειώσεις"
 
 # /usr/local/pf/conf/authentication.conf.example null
 msgid "Null Source"
-msgstr ""
+msgstr "Κενή Πηγή"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_oauth_policy
 msgid "OAuth login"
-msgstr ""
+msgstr "Σύνδεση OAuth"
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 # html/captive-portal/templates/emails/emails-security_event-triggered.html
 msgid "OS"
-msgstr ""
+msgstr "OS"
 
 # html/captive-portal/templates/status.html
 msgid "OS Type "
-msgstr ""
+msgstr "Τύπος OS"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "OS X Downloads icon"
-msgstr ""
+msgstr "Εικονίδιο λήψεων OS X"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "OS X Keychain Access prompt"
-msgstr ""
+msgstr "Ερώτηση πρόσβασης Keychain στο OS X"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "OS X password prompt"
-msgstr ""
+msgstr "Ερώτηση κωδικού στο OS X"
 
 # html/captive-portal/templates/ssl_inspection/firefox.html
 msgid "On the next windows make sure to checkmark that all options and click <i>OK</i>."
-msgstr ""
+msgstr "Στα επόμενα παράθυρα σιγουρευτείτε ότι είναι επιλεγμένες όλες οι επιλογές και κάντε κλικ στο <i>OK</i>."
 
 # html/captive-portal/templates/emails/emails-guest_email_preregistration_confirmed.html
 msgid "Once on site, select guest access on the captive portal and use the following username and password to authenticate"
-msgstr ""
+msgstr "Όταν είστε στο χώρο, επιλέξτε πρόσβαση επισκέπτη στο portal και κάντε χρήση του ακόλουθου ονόματος χρήστη και κωδικού για να πιστοποιηθείτε"
 
 # html/captive-portal/templates/provisioner/airwatch.html
 # html/captive-portal/templates/provisioner/intune.html
@@ -930,67 +930,67 @@ msgstr ""
 # html/captive-portal/templates/provisioner/kandji.html
 # html/captive-portal/templates/provisioner/sentinelone.html
 msgid "Once the application is installed, click 'Continue' to activate your network connection"
-msgstr ""
+msgstr "Εφόσον η εφαρμογή εγκατασταθεί, κάντε κλικ στο 'Συνέχεια' για να ενεργοποιήσετε τη σύνδεσή σας στο δίκτυο"
 
 # html/captive-portal/templates/provisioner/mobileiron.html
 msgid "Once the application is installed, click Continue to activate your network connection"
-msgstr ""
+msgstr "Εφόσον η εφαρμογή εγκατασταθεί, κάντε κλικ στο Συνέχεια για να ενεργοποιήσετε τη σύνδεσή σας στο δίκτυο"
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 msgid "Once you click on the activation link the guest will be sent a username and password by email which will allow him to register as a guest in the network once on-site."
-msgstr ""
+msgstr "Εφόσον κάνετε κλικ στο σύνδεσμο ενεργοποίησης, θα σταλεί στον επισκέπτη ένα όνομα χρήστη και κωδικός μέσω email τα οποία θα του επιτρέψουν να καταχωρηθεί ως επισκέπτης στο δίκτυο όταν βρεθεί στο χώρο."
 
 # html/captive-portal/templates/emails/emails-guest_email_preregistration.html
 msgid "Once you have activated you will receive a username and password to use once you'll be on-site."
-msgstr ""
+msgstr "Αφού έχετε ενεργοποιηθεί θα λάβετε ένα όνομα χρήστη και κωδικό για να χρησιμοποιήσετε όταν βρεθείτε στο χώρο."
 
 # html/captive-portal/templates/emails/emails-guest_admin_pregistration.html
 msgid "Once you will be on-site, authenticate using the following credentials to our captive portal"
-msgstr ""
+msgstr "Οταν βρεθείτε στο χώρο, πιστοποιηθείτε κάνοντας χρήση στο portal μας των ακόλουθων διαπιστευτηρίων"
 
 # html/captive-portal/templates/status/reset_password.html
 msgid "One of the password fields hasn't been filled"
-msgstr ""
+msgstr "Ένα από τα πεδία του κωδικού δεν έχει συμπληρωθεί"
 
 # html/captive-portal/templates/mfa/TOTP.html
 msgid "Open the two-factor authentication app on your device to view your authentication code and verify your identity."
-msgstr ""
+msgstr "Ανοίξτε την εφαρμογή two-factor authentication στη συκευή σας για να δείτε τον κωδικό πιστοποίησής σας και να επιβεβαίωση την ταυτότητά σας."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Open up Keychain Access (<i>Finder > Applications > Utilities > Keychain Access</i>)."
-msgstr ""
+msgstr "Ανοίτε το Keychain Access (<i>Finder > Applications > Utilities > Keychain Access</i>)."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Opening the file will launch the Keychain Access application; here, you maybe asked whether to add the certifitcate to the login keychain or the System keychain. It is preferred if the certificate is added to the System keychain in-case there are other users who might potentially login. Then click <i>Add</i>."
-msgstr ""
+msgstr "Το άνοιγμα του αρχείου θα εκκινήσει την εφαρμογή Keychain Access. Εκεί μπορεί να ερωτηθείτε αν θα προσθέσετε το πιστοποιητικό στο login keychain ή στο System keychain. Είναι προτιμότερο το πιστοποιητικό να προστεθεί στο System keychain για την περίπτωση που υπάρχουν και άλλοι χρήστες που ίσως θέλουν να συνδεθούν. Κάντε κλικ στο <i>Add</i>."
 
 # html/captive-portal/templates/ssl_inspection/opera.html
 msgid "Opera CA install prompt"
-msgstr ""
+msgstr "Prompt εγκατάστασης CA στο Opera"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/SSL_Inspection.pm
 msgid "Opera certificate installation"
-msgstr ""
+msgstr "Εγκατάσταση πιστοποιητικού στο Opera"
 
 # html/captive-portal/templates/ssl_inspection/opera.html
 msgid "Opera issuer trust prompt"
-msgstr ""
+msgstr "Prompt έμπιστου εκδότη στο Opera"
 
 # html/captive-portal/templates/ssl_inspection/menu.html
 msgid "Other"
-msgstr ""
+msgstr "Άλλο"
 
 # pf::person::FIELDS
 msgid "Otp"
-msgstr ""
+msgstr "Otp"
 
 # html/captive-portal/templates/sms/validate.html
 msgid "PIN"
-msgstr ""
+msgstr "PIN"
 
 # html/captive-portal/templates/layout.html
 msgid "PacketFence Registration system"
-msgstr ""
+msgstr "Σύστημα Καταχώρησης PacketFence"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 # html/captive-portal/templates/account.html
@@ -1006,227 +1006,227 @@ msgstr ""
 # html/captive-portal/templates/status/login.html
 # html/captive-portal/templates/status/reset_password.html
 msgid "Password"
-msgstr ""
+msgstr "Κωδικός"
 
 # html/captive-portal/templates/emails/emails-guest_password_of_the_day.html
 msgid "Password Of the Day"
-msgstr ""
+msgstr "Κωδικός Ημέρας"
 
 # html/captive-portal/templates/provisioner/dpsk.html
 msgid "Password: "
-msgstr ""
+msgstr "Κωδικός: "
 
 # html/captive-portal/templates/billing/confirm_Stripe.html
 msgid "Pay"
-msgstr ""
+msgstr "Πληρωμή"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_billing_policy
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Authentication/Billing.pm
 msgid "Pay for your access"
-msgstr ""
+msgstr "Πληρώστε για την πρόσβασή σας"
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 msgid "Phone number"
-msgstr ""
+msgstr "Αριθμός τηλεφώνου"
 
 # pf::person::FIELDS
 msgid "Pid"
-msgstr ""
+msgstr "Pid"
 
 # html/captive-portal/templates/ssl_inspection/other.html
 msgid "Please <u>check back periodically</u> on this webpage for new and updated browser certificates for your unsupported device. These browser certificates will help allow full device functionality with our network."
-msgstr ""
+msgstr "Παρακαλώ <u>ελέγξτε ξανά περιοδικά</u> αυτή την ιστοσελίδα για νέα και ενημερωμένα πιστοποιητικά πλοηγητή για την μη υποστηριζόμενη συσκευής σας. Αυτά τα πιστοποιητικά πλογητή θα βοηθήσουν να επιτραπούν οι πλήρεις λειτουργίες του δικτύου μας."
 
 # html/captive-portal/templates/status/billing_cancel_subscription.html
 msgid "Please click the button below to confirm the cancelation of your subscription."
-msgstr ""
+msgstr "Παρακαλώ κάντε κλικ στο παρακάτω κουμπί για να επιβεβαίωσετε την ακύρωση της συνδρομής σας."
 
 # html/captive-portal/templates/emails/emails-guest_email_activation.html
 # html/captive-portal/templates/emails/emails-guest_email_preregistration.html
 msgid "Please ignore this request if you have not requested network access."
-msgstr ""
+msgstr "Παρακαλώ αγνοήστε αυτό το αίτημα αν δεν έχετε αιτηθεί πρόσβαση στο δίκτυο."
 
 # html/captive-portal/templates/ssl_inspection.html
 msgid "Please install the certificate."
-msgstr ""
+msgstr "Παρακαλώ εγκαταστήστε το πιστοποιητικό."
 
 # html/captive-portal/templates/mfa/TOTP.html
 msgid "Please scan the code below in your favorite authenticator app"
-msgstr ""
+msgstr "Παρακαλώ σκανάρετε τον παρακάτω κώδικα στην εφαρμογή authenticator της επιλογής σας"
 
 # html/captive-portal/templates/stripe-customer-portal/select-account.html
 msgid "Please select the account you would like to manage"
-msgstr ""
+msgstr "Παρακαλώ επιλέξτε το λογαριασμό που θέλετε να διαχειριστείτε"
 
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 msgid "Policy ID"
-msgstr ""
+msgstr "Policy ID"
 
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 msgid "Policy name"
-msgstr ""
+msgstr "Policy name"
 
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 msgid "Policy query"
-msgstr ""
+msgstr "Policy query"
 
 # pf::person::FIELDS
 msgid "Portal"
-msgstr ""
+msgstr "Portal"
 
 # pf::person::FIELDS
 msgid "Potd"
-msgstr ""
+msgstr "Potd"
 
 # html/captive-portal/templates/emails/emails-guest_email_preregistration_confirmed.html
 msgid "PreRegister confirmation"
-msgstr ""
+msgstr "Επιβεβαίωση PreRegister"
 
 # html/captive-portal/templates/emails/emails-guest_admin_pregistration.html
 # html/captive-portal/templates/emails/emails-guest_email_preregistration.html
 msgid "PreRegistration"
-msgstr ""
+msgstr "PreRegistration"
 
 # html/captive-portal/templates/billing/tier.html
 msgid "Price"
-msgstr ""
+msgstr "Τιμή"
 
 # pf::person::FIELDS
 msgid "Psk"
-msgstr ""
+msgstr "Psk"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_blackhole_policy
 msgid "Refuse Login"
-msgstr ""
+msgstr "Άρνηση Εισόδου"
 
 # html/captive-portal/templates/device-registration/registration.html
 msgid "Register"
-msgstr ""
+msgstr "Καταχώρηση"
 
 # html/captive-portal/templates/status.html
 msgid "Register another device"
-msgstr ""
+msgstr "Καταχώρηση άλλης συσκευής"
 
 # html/captive-portal/templates/status.html
 msgid "Registered on"
-msgstr ""
+msgstr "Καταχωρήθηκε στις"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/DeviceRegistration.pm
 msgid "Registration"
-msgstr ""
+msgstr "Καταχώρηση"
 
 # html/captive-portal/templates/waiting.html
 msgid "Registration pending"
-msgstr ""
+msgstr "Εκκρεμεί καταχώρηση"
 
 # html/captive-portal/templates/sms/validate.html
 msgid "Resend PIN"
-msgstr ""
+msgstr "Επαναποστολή PIN"
 
 # html/captive-portal/templates/max-nodes-reached.html
 msgid "Retry signup"
-msgstr ""
+msgstr "Νέα προσπάθεια εγγραφής"
 
 # html/captive-portal/templates/status/menu.html
 msgid "Return to device list"
-msgstr ""
+msgstr "Επιστροφή στη λίστα συσκευών"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Root.pm
 msgid "Role %s has been assigned to your device"
-msgstr ""
+msgstr "Ο Ρόλος %s έχει ανατεθεί στη συσκευή σας"
 
 # pf::person::FIELDS
 msgid "Room_number"
-msgstr ""
+msgstr "Αριθμός_δωματίου"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Authentication/SAML.pm
 msgid "SAML authentication"
-msgstr ""
+msgstr "Πιστοποίηση SAM"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_saml_policy
 msgid "SAML login"
-msgstr ""
+msgstr "Είσοδος SAML"
 
 # /usr/local/pf/conf/authentication.conf.example sms
 msgid "SMS-based registration"
-msgstr ""
+msgstr "Εγγραφή μέσω SMS"
 
 # html/captive-portal/templates/provisioner/dpsk.html
 msgid "SSID: "
-msgstr ""
+msgstr "SSID: "
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 # html/captive-portal/templates/emails/emails-security_event-triggered.html
 msgid "Security Event %s was detected on your device."
-msgstr ""
+msgstr "Το συμβάν ασφαλείας %s εντοπίστηκε στην συκευή σας."
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 # html/captive-portal/templates/emails/emails-security_event-triggered.html
 msgid "Security Event detected !"
-msgstr ""
+msgstr "Εντοπίστηκε Συμβάν Ασφάλειας"
 
 # html/captive-portal/templates/device-registration/registration.html
 msgid "Select Console"
-msgstr ""
+msgstr "Επιλογή Console"
 
 # html/captive-portal/templates/activation/sponsor_set_access_durations.html
 msgid "Select access duration"
-msgstr ""
+msgstr "Επιλέξτε διάρκεια πρόσβασης"
 
 # html/captive-portal/templates/content-with-choice.html
 msgid "Select an authentication method"
-msgstr ""
+msgstr "Επιλέξτε μέθοδο πιστοποίησης"
 
 # html/captive-portal/templates/device-registration/registration.html
 msgid "Select registration role"
-msgstr ""
+msgstr "Επιλέξτε ρόλο καταχώρησης"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_show_local_account
 msgid "Show local account"
-msgstr ""
+msgstr "Προβολή τοπικού λογαριασμού"
 
 # pf::person::FIELDS
 msgid "Source"
-msgstr ""
+msgstr "Πηγές"
 
 # pf::person::FIELDS
 msgid "Sponsor"
-msgstr ""
+msgstr "Χορηγός"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 msgid "Sponsor Email"
-msgstr ""
+msgstr "Email χορηγού"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "Sponsor request accepted"
-msgstr ""
+msgstr "Το αίτημα χορηγού έγινε αποδεκτό"
 
 # /usr/local/pf/conf/authentication.conf.example sponsor
 msgid "Sponsor-based registration"
-msgstr ""
+msgstr "Εγγραφή μέσω χορηγού"
 
 # pf::person::FIELDS
 msgid "Sponsored_date"
-msgstr ""
+msgstr "Ημερομηνία_χορήγησης"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 # html/captive-portal/templates/stripe-customer-portal/select-account.html
 msgid "Status"
-msgstr ""
+msgstr "Κατάσταση"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Status.pm
 msgid "Status - Login"
-msgstr ""
+msgstr "Κατάσταση - Είσοδος"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Status.pm
 msgid "Status - Manage Account"
-msgstr ""
+msgstr "Κατάσταση - Διαχείριση Λογαριασμού"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Status.pm
 msgid "Status - Network Access"
-msgstr ""
+msgstr "Κατάσταση - Πρόσβαση στο Δίκτυο"
 
 # html/captive-portal/templates/ssl_inspection/android.html
 # html/captive-portal/templates/ssl_inspection/chrome.html
@@ -1236,157 +1236,157 @@ msgstr ""
 # html/captive-portal/templates/ssl_inspection/osx.html
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Step"
-msgstr ""
+msgstr "Βήμα"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/StripeCustomerPortal.pm
 msgid "Stripe Customer Portal is not enabled on the Stripe sources of this connection profile"
-msgstr ""
+msgstr "Το Portal Πελατών Stripe δεν είναι ενεργοποιημένο στις πηγές Stripe για αυτό το προφίλ σύνδεσης"
 
 # html/captive-portal/templates/stripe-customer-portal/select-account.html
 msgid "Stripe accounts for %s"
-msgstr ""
+msgstr "Λογαριασμοί Stripe για το %s"
 
 # html/captive-portal/templates/stripe-customer-portal/select-account.html
 msgid "Subscribed on device"
-msgstr ""
+msgstr "Εγγράφηκε στη συσκευή"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 # pf::person::FIELDS
 msgid "Telephone"
-msgstr ""
+msgstr "Τηλέφωνο"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 msgid "Telephone number is not valid"
-msgstr ""
+msgstr "Ο τηλεφωνικός αριθμός δεν είναι έγκυρος"
 
 # html/captive-portal/templates/ssl_inspection/common.html
 msgid "Test Certificate"
-msgstr ""
+msgstr "Δικομαστικό Πιστοποιητικό"
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 msgid "Thank you for your cooperation."
-msgstr ""
+msgstr "Ευχαριστούμε για την συνεργασία σας,"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 msgid "Thank you for your purchase."
-msgstr ""
+msgstr "Ευχαριστούμε για την αγορά σας."
 
 # html/captive-portal/templates/emails/emails-guest_email_activation.html
 # html/captive-portal/templates/emails/emails-guest_email_preregistration.html
 msgid "Thank you for your understanding"
-msgstr ""
+msgstr "Ευχαριστούμε για την κατανόηση"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "The <i>Certificate Import Wizard</i> will open next. Depending on your configuration, you may be asked whether to install for the <i>Current User</i> or the <i>Local Machine</i>; if asked, you should normally select <i>Local Machine</i>. In either case, click <i>Next</i>."
-msgstr ""
+msgstr "Ο <i>Οδηγός Εισαγωγής Πιστοποιητικού</i> θα ανοίξει. Ανάλογα με τις ρυθμίσεις σας, μπορείτε να ερωτηθείτε να εγκαταστήσετε τον <i>Current User</i> ή το <i>Local Machine</i>. Αν ερωτηθείτε, είναι σύνηθες να επιλέξετε το <i>Local Machine</i>. Σε κάθε περίπτωση, κάντε κλικ στο <i>Next</i>."
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "The <i>Select Certificate Store</i> dialogue will open. Highlight <i>Trusted Root Certification Authorities</i> in the list, and then press <i>OK</i> at the bottom."
-msgstr ""
+msgstr "Το παράθυρο <i>Select Certificate Store</i> θα ανοίξει. Επιλέξτε στη λίστα το <i>Trusted Root Certification Authorities</i> και πατήστε το <i>OK</i> στο κάτω μέρος."
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "The Chrome Settings page will open in a new tab. If necessary, scroll all the way down to the bottom; then, click the <i>Show advanced settings</i> link."
-msgstr ""
+msgstr "Η σελίδα Chrome Settings θα ανοίξει σε νέα καρτέλα. Αν απαιτείται, πλοηγηθείτε μέχρι το τέλος της σελίδας και στη συνέχεια κάντε κλικ στο σύνδεσμο <i>Show advanced settings</i>."
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "The Settings page will expand to reveal several new options. Scroll down nearly to the bottom and click the <i>Manage certificates...</i> button."
-msgstr ""
+msgstr "Η σελίδα Settings θα διερευνθεί ώστε να δείξει αρκετές νέες επιλογές. Πλοηγηθείται προς τα κάτω σχεδόν μέχρι το τέλος και κάντε κλικ στο κουμπί <i>Manage certificates...</i>."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "The activation code provided is invalid. Reasons could be: it never existed, it was already used or has expired."
-msgstr ""
+msgstr "Ο κωδικός ενεργοποίησης είναι άκυρος. Πιθανόν είναι λανθασμένος, έχει ήδη χρησιμοποιηθεί ή έχει λήξει."
 
 # html/captive-portal/templates/status.html
 msgid "The device %s will be disconnected and won't be able to be registered again."
-msgstr ""
+msgstr "Η συσκευή %s θα αποσυνδεθεί και δεν είναι δυνατόν να καταχωρηθεί ξανά."
 
 # html/captive-portal/templates/emails/emails-billing_stripe_customer.subscription.deleted.html
 msgid "The network access of device %s has been revoked."
-msgstr ""
+msgstr "Το δικαίωμα πρόσβασης για την συσκευή %s έχει ανακληθεί."
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "The next screen will ask whether you would like to have Windows <i>automatically select a certificate store</i> or you would like to select it yourself. Opt to select yourself, by clicking on <i>Place all certificates in the following store</i>. Then, press the <i>Browse</i> button to the right."
-msgstr ""
+msgstr "Η επόμενη οθόνη θα σας ζητήσει αν επιθυμείται τα Windows να <i>επιλέξουν αυτόματα το certificate store</i> ή να θέλετε να το επιλέτε εσείς. Συστήνεται να το επιλέξετε εσείς, κάνοντας κλικ στο <i>Place all certificates in the following store</i>. Στη συνέχεια πατήστε το κουμπί <i>Browse</i> δεξιά."
 
 # html/captive-portal/templates/readonly.html
 msgid "The system is in maintenance mode"
-msgstr ""
+msgstr "Το σύστημα είναι σε κατάσταση maintenance"
 
 # html/captive-portal/templates/status/reset_password.html
 msgid "The two entered passwords did not match"
-msgstr ""
+msgstr "Οι δύο κωδικού που εισάγατε δεν ταιριάζουν"
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "These images show Chrome running on Chrome OS version 47; you may not see exactly the same thing if you are using Chrome for Linux; however, the general process and wording should be the same."
-msgstr ""
+msgstr "Οι εικόνες αφορούν το Chrome όταν εκτελείται σε Chrome OS, έκδοση 47. Πιθανόν να μην δείτε το ίδιο αν χρησιμοποιείτε Chrome σε Linux. Παρόλαυτα, γενικά η διαδικασία και η διατύπωση πρέπει να είναι παρόμοιες."
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "These images show Internet Explorer 10 running on Windows 8; you may not see exactly the same thing if you are using another browser or a different version of Windows; however, the general process and wording should be the same."
-msgstr ""
+msgstr "Οι εικόνες αφορούν το Internet Explorer 10 όταν εκτελείται σε Windows 8. Πιθανόν να μην δείτε το ίδιο αν χρησιμοποιείτε άλλον περιηγητή ή έχετε διαφορετική έκδοση Windows. Παρόλαυτα, γενικά η διαδικασία και η διατύπωση πρέπει να είναι παρόμοιες."
 
 # html/captive-portal/templates/ssl_inspection/opera.html
 msgid "These images show Opera on macOS. If your computer runs Windows or Linux, the buttons may look different - but the words should be the same."
-msgstr ""
+msgstr "Οι εικόνες αφορούν το Opera όταν εκτελείται σε macOS. Αν ο υπολογιστής σας τρέχει Windows ή Linux, τα κουμπιά μπορεί να φαίνονται διαφορετικά, πάντως η διατύπωση πρέπει να είναι η ίδια."
 
 # html/captive-portal/templates/ssl_inspection/ios.html
 msgid "These images show iOS 9 running on an iPad; if you have a different version of iOS, the layout and buttons may be different — but the words should be the same.) Also, you maybe presented with a warning about the unverified authenticity of the profile. You may read over this if you like; otherwise, tap <i>Install</i> again (in the top-right corner."
-msgstr ""
+msgstr "Οι εικόνες αφορούν το iOS 9 όταν εκτελείται σε iPad. Αν έχετε διαφορετική έκδοση του iOS, η εμφάνιση και τα κουμπιά μπορεί να είναι διαφορετικά, πάντως η διατύπωση πρέπει να είναι η ίδια. Επιπλέον, μπορεί να σας εμφανιστεί μήνυμα προειδοποίησης σχετικά με αδυναμία πιστοποίησης του προφίλ. Αν θέλετε μπορείτε να το διαβάσετε, αλλιώς πατήστε ξανά το <i>Install</i> (στην πάνω δεξιά γωνία)."
 
 # html/captive-portal/templates/account.html
 msgid "This account can only be used once."
-msgstr ""
+msgstr "Αυτός ο λογαριασμός μπορεί να χρησιμοποιηθεί μόνο μια φορά."
 
 # html/captive-portal/templates/status/billing_cancel_subscription.html
 msgid "This action cannot be undone."
-msgstr ""
+msgstr "Αυτή η ενέργεια δεν μπορεί να αναιρεθεί."
 
 # html/captive-portal/templates/status.html
 msgid "This device is declared as lost or stolen."
-msgstr ""
+msgstr "Αυτή η συσκευή έχει δηλωθεί ως απωλεσθείσα ή κλεμμένη."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/NetworkLogoff.pm
 msgid "This feature cannot be accessed because the system is not able to find your MAC address. Please contact your network administrator for more details."
-msgstr ""
+msgstr "Δεν έχετε πρόσβαση σε αυτή τη λειτουργία γιατί το σύστημα δεν είναι δυνατόν να βρεί την διεύθυνση MAC σας. Παρακαλώ επικοινωνήστε με τον διαχειρστή δικτύου σας για περισσότερες πληροφορίες."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/NetworkLogoff.pm
 msgid "This feature is currently disabled. Please contact your network administrator for more details."
-msgstr ""
+msgstr "Στην παρούσα αυτή η λειτουργία είναι απενεργοποιημένη. Παρακαλώ επικοινωνήστε με τον διαχειρστή δικτύου σας για περισσότερες πληροφορίες."
 
 # html/captive-portal/templates/ssl_inspection/opera.html
 msgid "This guide is for Opera version 12 and below. Newer versions of Opera will use your computer system's certificate or keychain manager instead of your browser's local certificate manager. If you have Opera version 15 or above, please download either the <a href=\"../ssl_inspection/osx\">macOS</a> or <a href=\"../ssl_inspection/windows\">Windows</a> based certificate, or any of the other platforms, depending on your system."
-msgstr ""
+msgstr "Αυτός ο οδηγός αφορά τον Opera, έκδοση 12 και πάνω. Νεότερες εκδόσεις του Opera θα χρησιμοποιήσουν τον certificate ή keychain manager του υπολογιστή σας αντί τον τοπικό certificate manager του περιηγητή σας. Αν έχετε τον Opera, έκδοσης 15 και πάνω, παρακαλώ κατεβάστε το πιστοποιητικό είτε του <a href=\"../ssl_inspection/osx\">macOS</a> είτε του <a href=\"../ssl_inspection/windows\">Windows</a>, ή κάποιας άλλης πλατφόρμας, ανάλογα με το σύστημά σας."
 
 # html/captive-portal/templates/ssl_inspection/android.html
 msgid "This guide will help you install the SSL filtering certificate for Android-based mobile devices, including the Nexus, Galaxy, Droid, and Evo, as well as several other phones and tablets. This guide is not primarily for district owned Android devices."
-msgstr ""
+msgstr "Αυτός ο οδηγός θα σας βοηθήσει να εγκαταστήσετε το certificate για SSL filtering σε συσκευές με Android, συμπεριλαμβανομένων των Nexus, Galaxy, Droid και Evo, καθώς και αρκετά άλλα τηλέφωνα και tablets. Αυτός ο οδηγός κυρίως δεν αφορά συσκευές Android τύπου district-owned."
 
 # html/captive-portal/templates/ssl_inspection/ios.html
 msgid "This guide will help you install the SSL filtering certificate for Apple mobile devices, including the iPad, iPhone, and iPod touch. This guide is <i>not</i> primarily for district owned iPads."
-msgstr ""
+msgstr "Αυτός ο οδηγός θα σας βοηθήσει να εγκαταστήσετε το certificate για SSL filtering σε συσκευές Apple, συμπεριλαμβανομένων των iPad, iPhone και iPod touch. Αυτός ο οδηγός κυρίως <i>δεν αφορά</i> συσκευές iPad τύπου district-owned."
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "This guide will help you install the SSL filtering certificate for Chrome OS and Chrome for Linux — this also includes Chrome-based browsers which do not use the operating system's built-in key store."
-msgstr ""
+msgstr "Αυτός ο οδηγός θα σας βοηθήσει να εγκαταστήσετε το certificate για SSL filtering για Chrome OS και Chrome για Linux, συμπεριλαμβανομένου περιηγητών βασισμένων σε Chrome που δεν κάνουν χρήση του ενσωματωμένου key store του συστήματος."
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "This guide will help you install the SSL filtering certificate for Windows-based browsers which use the operating system's built-in certificate store — this includes Internet Explorer, Chrome, and Safari."
-msgstr ""
+msgstr "Αυτός ο οδηγός θα σας βοηθήσει να εγκαταστήσετε το certificate για SSL filtering σε περιηγητές βασισμένους σε Windows που κάνουν χρήση του ενσωματωμένου certificate store του συστήματος. Περιλαμβάνονται οι περιηγητές Internet Explorer, Chrome και Safari."
 
 # html/captive-portal/templates/ssl_inspection/firefox.html
 msgid "This guide will help you install the SSL filtering certificate for browsers based on the Mozilla platform, such as Firefox."
-msgstr ""
+msgstr "Αυτός ο οδηγός θα σας βοηθήσει να εγκαταστήσετε το certificate για SSL filtering σε περιηγητές βασισμένους στην πλατφόρμα Mozilla, όπως ο Firefox."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "This guide will help you install the SSL filtering certificate for browsers which use macOS built-in Keychain facility — this includes Safari and Chrome. This guide is not primarily for district owned macOS computers."
-msgstr ""
+msgstr "Αυτός ο οδηγός θα σας βοηθήσει να εγκαταστήσετε το certificate για SSL filtering σε περιηγητές που χρησιμοποιούν το ενσωματωμένη δυνατότητα Keychain του macOS. Περιλαμβάνονται οι Safari και Chrome. Αυτός ο οδηγός κυρίως δεν αφορά συσκευές macOS τύπου district-owned."
 
 # html/captive-portal/templates/ssl_inspection/opera.html
 msgid "This guide will help you install the SSL filtering certificate for the Opera browser."
-msgstr ""
+msgstr "Αυτός ο οδηγός θα σας βοηθήσει να εγκαταστήσετε το certificate για SSL filtering σε περιηγητή Opera."
 
 # html/captive-portal/templates/status.html
 msgid "This is your current device."
-msgstr ""
+msgstr "Αυτή είναι η τρέχουσα συσκευή σας."
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 # html/captive-portal/templates/emails/emails-billing_stripe_customer.subscription.deleted.html
@@ -1403,7 +1403,7 @@ msgstr ""
 # html/captive-portal/templates/emails/emails-guest_sponsor_preregistration.html
 # html/captive-portal/templates/emails/emails-security_event-triggered.html
 msgid "This message was sent automatically from an unmonitored email address, please do not reply."
-msgstr ""
+msgstr "Αυτό το μήνυμα στάλθηκε αυτόματα από μια μη-παρακολουθούμενη διεύθυνση email, παρακαλώ μην απαντήσετε."
 
 # html/captive-portal/templates/ssl_inspection/android.html
 # html/captive-portal/templates/ssl_inspection/chrome.html
@@ -1413,118 +1413,118 @@ msgstr ""
 # html/captive-portal/templates/ssl_inspection/osx.html
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "This network employs a technology called captive portal which allows the administrator(s) to restrict network access to trusted users. In order to prevent certificate security warnings when accessing this portal, the network's filtering unit must issue to your computer or mobile device a file called an SSL certificate."
-msgstr ""
+msgstr "Αυτό το δίκτυο χρησιμοποιεί μια τεχνολογία που αποκαλείται captive portal και επιτρέπει στους διαχειριστές να περιορίζουν την πρόσβαση στο δίκτυο σε έμπιστους χρήστες. Για να αποτρέψετε τις προειδοποιήσεις ασφάλειας πιστοποιητικών, η μονάδα ασφάλειας δικτύου πρέπει να εκδόση για τον υπολογιστή ή το κινητό σας ένα αρχείο που ονομάζεται πιστοποιητικό SSL."
 
 # html/captive-portal/templates/emails/emails-guest_admin_pregistration.html
 msgid "This username and password will be valid starting"
-msgstr ""
+msgstr "Αυτό το όνομα χρήστη και κωδικός θα είναι έγκυρα αρχίζοντας από"
 
 # html/captive-portal/templates/billing/tier.html
 msgid "Tier"
-msgstr ""
+msgstr "Επίπεδο"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Authentication/Billing.pm
 msgid "Tier confirmation"
-msgstr ""
+msgstr "Επιβεβαίωση επιπέδου"
 
 # html/captive-portal/templates/status.html
 msgid "Time balance "
-msgstr ""
+msgstr "Υπολειπόμενος χρόνος "
 
 # pf::person::FIELDS
 msgid "Title"
-msgstr ""
+msgstr "Τίτλος"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 msgid "To cancel your subscription, click on the following link"
-msgstr ""
+msgstr "Για να ακυρώσετε την συνδρομή σας, κάντε κλικ στον παρακάτω σύνδεσμο"
 
 # html/captive-portal/templates/provisioner/mobileiron.html
 msgid "To complete your network activation you need to install MobileIron"
-msgstr ""
+msgstr "Για να ολοκληρώσετε την ενεργοποίηση δικτύου πρέπει να εγκαταστήσετε το MobileIron"
 
 # html/captive-portal/templates/provisioner/airwatch.html
 msgid "To complete your network activation you need to install the Airwatch agent."
-msgstr ""
+msgstr "Για να ολοκληρώσετε την ενεργοποίηση δικτύου πρέπει να εγκαταστήσετε τον Airwatch agent."
 
 # html/captive-portal/templates/provisioner/intune.html
 msgid "To complete your network activation you need to install the Intune client."
-msgstr ""
+msgstr "Για να ολοκληρώσετε την ενεργοποίηση δικτύου πρέπει να εγκαταστήσετε τον Intune client."
 
 # html/captive-portal/templates/provisioner/jamf.html
 # html/captive-portal/templates/provisioner/jamfCloud.html
 msgid "To complete your network activation you need to install the JAMF client."
-msgstr ""
+msgstr "Για να ολοκληρώσετε την ενεργοποίηση δικτύου πρέπει να εγκαταστήσετε τον JAMF client."
 
 # html/captive-portal/templates/provisioner/kandji.html
 msgid "To complete your network activation you need to install the Kandji MDM client."
-msgstr ""
+msgstr "Για να ολοκληρώσετε την ενεργοποίηση δικτύου πρέπει να εγκαταστήσετε τον Kandji MDM client."
 
 # html/captive-portal/templates/provisioner/sentinelone.html
 msgid "To complete your network activation you need to install the SentinelOne client."
-msgstr ""
+msgstr "Για να ολοκληρώσετε την ενεργοποίηση δικτύου πρέπει να εγκαταστήσετε τον SentinelOne client."
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 msgid "To extend your network access, please visit"
-msgstr ""
+msgstr "Για να επεκτείνετε την πρόσβαση στο δίκτυο, παρακαλώ επισκεφθείτε"
 
 # html/captive-portal/templates/provisioner/accept.html
 msgid "To the administrator : you should probably file a bug report on the PacketFence website"
-msgstr ""
+msgstr "Προς τον διαχειριστή: πιθανόν πρέπει να καταχωρήσετε αναφορά bug στην ιστοσελίδα του PacketFence"
 
 # html/captive-portal/templates/provisioner/accept.html
 msgid "To the user : try clicking Continue to see if it fixes the problem"
-msgstr ""
+msgstr "Προς τον χρήστη: δοκιμάστε να κάνετε κλικ στο Συνέχεια ώστε να δείτε αν διορθώνεται το πρόβλημα"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 msgid "To view your current network status, please visit"
-msgstr ""
+msgstr "Για να δείτε την τρέχουσα κατάσταση δικτύου σας, παρακαλώ επισκεφθείτε"
 
 # html/captive-portal/templates/emails/emails-billing_confirmation.html
 msgid "Transaction ID"
-msgstr ""
+msgstr "Ταυτότητα Συναλλαγής"
 
 # html/captive-portal/templates/billing/tier.html
 msgid "Transaction summary"
-msgstr ""
+msgstr "Περίληψη Συναλλαγής"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/StripeCustomerPortal.pm
 msgid "Trying to manage a customer ID that doesn't belong to this account."
-msgstr ""
+msgstr "Προσπαθείτε να διαχειριστειτε μια ταυτότητα πελάτω που δεν ανήκει σε αυτό το λογαριασμό."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/StripeCustomerPortal.pm
 msgid "Unable to create Stripe Customer Portal session"
-msgstr ""
+msgstr "Δεν ήταν δυνατό να δημιουργηθεί σύνδεση με το Stripe Customer Portal"
 
 # html/captive-portal/templates/release.html
 # html/captive-portal/templates/scan-in-progress.html
 msgid "Unable to detect network connectivity. Try restarting your web browser or opening a new tab to see if your access has been succesfully enabled."
-msgstr ""
+msgstr "Αποτυχία ανίχνευσης της δυνατότητα σύνδεσης στο δίκτυο. Δοκιμάστε να επανεκκινήσετε τον περιηγητή σας ή ανοίξτε νέα καρτέλα ώστε να δείτε αν ενεργοποιήθηκε η πρόσβασή σας."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/StripeCustomerPortal.pm
 msgid "Unable to find a Stripe source in this connection profile"
-msgstr ""
+msgstr "Δεν ήταν δυνατό να βρεθεί πηγή Stripe σε αυτό το προφίλ σύνδεσης"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "Unable to register the device: %s"
-msgstr ""
+msgstr "Δεν ήταν δυνατό να εγγραφεί η συσκευή: %s"
 
 # html/captive-portal/templates/status.html
 msgid "Unregister"
-msgstr ""
+msgstr "Διαγραφή"
 
 # html/captive-portal/templates/status.html
 msgid "Unregister %s? The device will be immediately disconnected from the network."
-msgstr ""
+msgstr "Διαγραφή του %s; Η συσκευή θα αποσυνδεθεί αμέσως από το δίκτυο."
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 msgid "Until you click on the activation link this guest will have NO Internet access."
-msgstr ""
+msgstr "Μέχρι να κάνετε κλικ στο σύνδεσμο ενεργοποίησης αυτός ο χρήστης ΔΕΝ θα έχει πρόσβαση στο δίκτυο."
 
 # html/captive-portal/templates/emails/emails-guest_local_account_creation.html
 # html/captive-portal/templates/emails/emails-guest_sponsor_preregistration.html
 msgid "User Account"
-msgstr ""
+msgstr "Λογαριασμός Χρήστη"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 # html/captive-portal/templates/account.html
@@ -1536,223 +1536,223 @@ msgstr ""
 # html/captive-portal/templates/emails/emails-guest_sponsor_preregistration.html
 # html/captive-portal/templates/status/login.html
 msgid "Username"
-msgstr ""
+msgstr "Όνομα χρήστη"
 
 # /usr/local/pf/conf/portal_modules.conf.defaults default_login_policy
 msgid "Username/password login"
-msgstr ""
+msgstr "Σύνδεση με όνομα χρήστη/κωδικό"
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "Utilities folder from the Finder"
-msgstr ""
+msgstr "Φάκελος utilities από το Finder"
 
 # html/captive-portal/templates/activation/sponsor_set_access_durations.html
 msgid "Validate"
-msgstr ""
+msgstr "Επικύρωση"
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "When the <i>Certificate manager</i> screen appears, click the <i>Authorities</i> tab. Then, click the <i>Import...</i> button near the bottom."
-msgstr ""
+msgstr "Όταν εμφανιστεί η οθόνη i>Certificate manager</i>, κάντε κλικ στην καρτέλα <i>Authorities</i>. Στη συνέχεια κάντε κλικ στο κουμπί <i>Import...</i> κάτω."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "When the certificate finishes downloading, it will appear in your default Downloads folder. Usually, this can be accessed via the Dock near the Trash icon, or, depending on your browser, it may appear in a dedicated downloads window. Locate the file and double-click to open it."
-msgstr ""
+msgstr "Όταν ολοκληρωθεί η λήψη του πιστοποιητικού, θα εμφανιστεί στον προκαθορισμένο φάκελο Λήψεις. Συνήθως μπορείτε να το δείτε μέσω το Dock κοντά στο εικονίδιο Trash, ή, ανάλογα με τον περιηγητή σας, μπορεί να εμφανιστεί ένα παράθυρο για λήψεις. Εντοπίστε το αρχείο και κάντε διπλό κλικ για να το ανοίξετε."
 
 # html/captive-portal/templates/networklogoff.html
 msgid "When you are done with your usage of this device, please click on the Logoff button below to terminate your network session"
-msgstr ""
+msgstr "Όταν ολοκληρώσετε την χρήση αυτή της συσκευής, παρακαλώ κάντε κλικ στο κουμπί Logoff για να τερματίσετε την δικτυακή συνεδρία"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Windows Certificate Import Wizard"
-msgstr ""
+msgstr "Οδηγός Εισαγωγής Πιστοποιητικών των Windows"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Windows Certificate dialogue"
-msgstr ""
+msgstr "Παράθυρο Πιστοποιητικών των Windows"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Windows Security Warning dialogue"
-msgstr ""
+msgstr "Παράθυρο Προειδοποίησης Ασφάλειας των Windows"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Windows Select Certificate Store prompt"
-msgstr ""
+msgstr "Παρακίνηση Επιλογής Certificate Store των Windows"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/SSL_Inspection.pm
 msgid "Windows certificate installation"
-msgstr ""
+msgstr "Εγκατάσταση πιστοποιητικών των Windows"
 
 # html/captive-portal/templates/ssl_inspection/other.html
 msgid "Windows phones and Linux devices are included in the devices that will need a browser certificate."
-msgstr ""
+msgstr "Τα τηλέφωνα τύπου Windows και οι συσκευές Linux περιλαμβάνονται στις συσκευές που απαιτούν πιστοποιητικό περιηγητή."
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Windows save prompt"
-msgstr ""
+msgstr "Παρακίνηση αποθήκευσης των Windows"
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "Windows security prompt"
-msgstr ""
+msgstr "Παρακίνηση ασφάλειας των Windows"
 
 # pf::person::FIELDS
 msgid "Work_phone"
-msgstr ""
+msgstr "Τηλέφωνο_εργασίας"
 
 # html/captive-portal/templates/pki_provider/packetfence_local.html
 # html/captive-portal/templates/pki_provider/packetfence_pki.html
 # html/captive-portal/templates/pki_provider/scep.html
 msgid "You can also modify the password below."
-msgstr ""
+msgstr "Μπορείτε επίσης να αλλάξετε τον κωδικό σας παρακάτω."
 
 # html/captive-portal/templates/lost_stolen.html
 msgid "You do not own this device %s, you can not declare it as lost or stolen."
-msgstr ""
+msgstr "Δεν σας ανήκει η συσκευή %s, δεν μπορείτε να δηλώσε απώλεια ή κλοπή της."
 
 # html/captive-portal/templates/emails/emails-fleetdm-cve.html
 # html/captive-portal/templates/emails/emails-fleetdm-policy-violation.html
 # html/captive-portal/templates/emails/emails-security_event-triggered.html
 msgid "You have been detected doing malicious activity on the network."
-msgstr ""
+msgstr "Εντοπίστηκε ότι εκτελείτε κακόβουλη ενέργεια στο δίκτυο."
 
 # html/captive-portal/templates/status.html
 msgid "You have no registered devices."
-msgstr ""
+msgstr "Δεν έχετε καταχωρημένες συσκευές."
 
 # html/captive-portal/templates/max-nodes-reached.html
 msgid "You have reached the maximum amount of endpoints you can register with this username."
-msgstr ""
+msgstr "Φτάσατε το μέγιστο πλήθος endpoints που μπορείτε να καταχωρήσετε με αυτό το όνομα χρήστη."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "You may not see exactly the same thing if you are using another browser or a different version of macOS; however, the general process and wording should be the same."
-msgstr ""
+msgstr "Πιθανόν να μην βλέπετε ακριβώς το ίδιο πράγμα αν χρησιμοποιείτε άλλο περιηγητή ή διαφορετική έκδοση του macOS. Παρόλαυτα, γενικά η διαδικασία και η διατύπωση πρέπει να είναι η ίδια."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "You may now close the window."
-msgstr ""
+msgstr "Μπορείτε πλέον να κλείσετε το παράθυρο."
 
 # html/captive-portal/lib/captiveportal/PacketFence/Form/Authentication.pm
 msgid "You must accept the terms and conditions"
-msgstr ""
+msgstr "Πρέπει να αποδεχθείτε τους όρους χρήσης"
 
 # html/captive-portal/templates/provisioner/accept.html
 msgid "You should not seeing this page, something went wrong."
-msgstr ""
+msgstr "Δεν θα έπρεπε να βλέπετε αυτή τη σελίδα, κάτι πήγε στραβά."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "You should now see a blue \"+\" right next to the certificate."
-msgstr ""
+msgstr "Πρέπει πλέον να βλέπετε ένα μπλε \"+\" ακριβώς δίπλα από το πιστοποιητικό."
 
 # html/captive-portal/templates/ssl_inspection/android.html
 msgid "You will be prompted to enter a name for the certificate. Enter a meaningful name for this network and click <i>OK</i>."
-msgstr ""
+msgstr "Θα σας ζητηθεί να εισάγετε ένα όνομα για το πιστοποιητικό. Εισάγετε ένα χαρακτηριστικό όνομα για αυτό το δίκτυο και κάντε κλικ στο <i>OK</i>."
 
 # html/captive-portal/templates/ssl_inspection/android.html
 msgid "You will see a confirmation that the certificate has been installed. In your notifications, it might say <i>Network may be monitored by an unknown third party</i>. That is normal and should be ignored."
-msgstr ""
+msgstr "Θα δείτε μια επιβεβαίωση ότι το πιστοποιητικό έχει εγκατασταθεί. Στις ειδοποιήσεις σας, μπορεί να αναφέρει το μήνυμα <i>Network may be monitored by an unknown third party</i>. Αυτό είναι φυσιολογικό και μπορείτε να το αγνοήσετε."
 
 # html/captive-portal/templates/ssl_inspection/ios.html
 msgid "You will see a confirmation that the profile has been installed, and that the certificate is <i>Verified</i>. Simply tap the <i>Done</i> button in the top-right corner."
-msgstr ""
+msgstr "Θα δείτε μια επιβεβαίωση ότι το προφίλ έχει εγκατασταθεί και ότι το πιστοποιητικό είναι <i>Verified</i>. Απλά πατήσετε το κουμπί <i>Done</i> στην πάνω δεξιά γωνία."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "You're done! After entering your password, you can close Keychain Access and continue browsing as usual; in most cases, you will not notice anything different after the certificate is installed."
-msgstr ""
+msgstr "Τελειώσατε! Αφου εισάγετε τον κωδικό σας, μπορείτε να κλείσετε το Keychain Access και να συνεχίσετε την περιήγση. Στις περισσότερες περιπτώσεις, δεν θα παρατηρήσετε κάποια διαφορά αφότου το πιστοποιητικό έχει εγκατασταθεί."
 
 # html/captive-portal/templates/ssl_inspection/chrome.html
 msgid "You're done! After trusting the CA, you can click OK, close the Settings page, and continue browsing as usual; in most cases, you will not notice anything different after the certificate is installed."
-msgstr ""
+msgstr "Τελειώσατε! Αφου εμπιστευθήκατε την CA, μπορείτε να κάνετε κλικ στο OK, να κλείστε την σελίδα Settings, και να συνεχίσετε την περιήγση. Στις περισσότερες περιπτώσεις, δεν θα παρατηρήσετε κάποια διαφορά αφότου το πιστοποιητικό έχει εγκατασταθεί."
 
 # html/captive-portal/templates/ssl_inspection/osx.html
 msgid "You're done! You can close Keychain Access and continue browsing as usual; in most cases, you will not notice anything different after the certificate is installed."
-msgstr ""
+msgstr "Τελειώσατε! Μπορείτε να κλείσετε το Keychain Access και να συνεχίσετε την περιήγση. Στις περισσότερες περιπτώσεις, δεν θα παρατηρήσετε κάποια διαφορά αφότου το πιστοποιητικό έχει εγκατασταθεί."
 
 # html/captive-portal/templates/ssl_inspection/windows.html
 msgid "You're done! You may close any remaining certificate windows and continue browsing as usual; in most cases, you will not notice anything different after the certificate is installed."
-msgstr ""
+msgstr "Τελειώσατε! Μπορείτε να κλείσετε τα υπολοιπόμενα παράθυρα πιστοποιητικών και να συνεχίσετε την περιήγση. Στις περισσότερες περιπτώσεις, δεν θα παρατηρήσετε κάποια διαφορά αφότου το πιστοποιητικό έχει εγκατασταθεί."
 
 # html/captive-portal/templates/ssl_inspection/ios.html
 msgid "You're done! You may close or switch away from the Settings application and continue browsing as usual; in most cases, you will not notice anything different after the certificate is installed."
-msgstr ""
+msgstr "Τελειώσατε! Μπορείτε να κλείσετε την εφαρμογή Settings και να συνεχίσετε την περιήγση. Στις περισσότερες περιπτώσεις, δεν θα παρατηρήσετε κάποια διαφορά αφότου το πιστοποιητικό έχει εγκατασταθεί."
 
 # html/captive-portal/templates/ssl_inspection/android.html
 # html/captive-portal/templates/ssl_inspection/firefox.html
 # html/captive-portal/templates/ssl_inspection/opera.html
 msgid "You're done! You may continue browsing as usual; in most cases, you will not notice anything different after the certificate is installed."
-msgstr ""
+msgstr "Τελειώσατε! Μπορείτε να συνεχίσετε την περιήγση. Στις περισσότερες περιπτώσεις, δεν θα παρατηρήσετε κάποια διαφορά αφότου το πιστοποιητικό έχει εγκατασταθεί."
 
 # html/captive-portal/templates/status.html
 msgid "You're not connected to the network, but have a timebank of <strong id='timeleft'>%s</strong>"
-msgstr ""
+msgstr "Δεν είστε συνδεμένοι στο δίκτυο, έχετε όμως υπολοιπόμενο χρόνο <strong id='timeleft'>%s</strong>"
 
 # html/captive-portal/templates/status.html
 msgid "Your WPA Wi-Fi key: "
-msgstr ""
+msgstr "Το κλειδι WPA Wi-Fi: "
 
 # html/captive-portal/templates/provisioner/android.html
 # html/captive-portal/templates/provisioner/mobileconfig.html
 msgid "Your XML configuration have been generated and is now ready to download.  Follow the link below in order to get access to the secure SSID."
-msgstr ""
+msgstr "Οι ρυθμίσεις σας XML έχουν παραχθεί και είναι έτοιμες για λήψη. Ακολουθείστε τον παρακάτω σύνδεσμο για να έχετε πρόσβαση στο ασφαλές SSID."
 
 # html/captive-portal/templates/lost_stolen.html
 msgid "Your device %s has been declared as lost or stolen."
-msgstr ""
+msgstr "Η συσκευή σας %s έχει δηλωθεί ως απωλεσθείσα ή κλεμμένη."
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_confirmed.html
 # html/captive-portal/templates/emails/emails-guest_sponsor_preregistration.html
 msgid "Your guest access to the network was authorized."
-msgstr ""
+msgstr "Η πρόσβασή σας στο δίκτυο ως επισκέπτης έχει εξουσιοδοτηθεί."
 
 # html/captive-portal/templates/emails/emails-guest_email_preregistration_confirmed.html
 msgid "Your guest access to the network was confirmed."
-msgstr ""
+msgstr "Η πρόσβασή σας στο δίκτυο ως επισκέπτης έχει επιβεβαιωθεί."
 
 # html/captive-portal/templates/status.html
 msgid "Your network access ends in <strong id=\"expiration\"></strong>"
-msgstr ""
+msgstr "Η πρόσβασή σας στο δίκτυο τελειώνει σε <strong id=\"expiration\"></strong>"
 
 # html/captive-portal/templates/status.html
 msgid "Your network access has expired."
-msgstr ""
+msgstr "Η πρόσβασή σας στο δίκτυο έχει λήξει."
 
 # html/captive-portal/templates/status.html
 msgid "Your network access is <strong>paused</strong>"
-msgstr ""
+msgstr "Η πρόσβασή σας στο δίκτυο είναι σε <strong>παύση</strong>"
 
 # html/captive-portal/templates/release.html
 msgid "Your network access is currently being enabled. Once network connectivity is established you will be automatically redirected."
-msgstr ""
+msgstr "Η πρόσβασή σας στο δίκτυο ενεργοποιείται. Εφόσον η συνδεσιμότητα ολοκληρωθεί θα ανακατευθυνθείτε αυτόματα."
 
 # html/captive-portal/templates/status/reset_password.html
 msgid "Your password has been updated"
-msgstr ""
+msgstr "Ο κωδικός σας ενημερώθηκε"
 
 # html/captive-portal/templates/status.html
 msgid "Your registered devices"
-msgstr ""
+msgstr "Οι καταχωρημένες συσκευές σας"
 
 # html/captive-portal/templates/waiting.html
 msgid "Your registration is pending approval. Once approved you will be automatically redirected."
-msgstr ""
+msgstr "Η εγγραφή σας εκκρεμεί έγκρισης. Εφόσον εγκριθεί θα ανακατευθυνθείτε αυτόματα."
 
 # html/captive-portal/templates/waiting.html
 msgid "Your registration is pending approval. You can safely close this page, your network access will be automatically enabled once the sponsor activates your access."
-msgstr ""
+msgstr "Η εγγραφή σας εκκρεμεί έγκρισης. Μπορείτε να κλείσετε αυτή τη σελίδα, η πρόσβασή σας στο δίκτυο θα ενεργοποιηθεί αυτόματα όταν ο χορηγός σας εγκρίνει την πρόσβαση."
 
 # html/captive-portal/templates/emails/emails-billing_stripe_customer.subscription.deleted.html
 msgid "Your subscribtion was cancelled."
-msgstr ""
+msgstr "Η συνδρομή σας έχει ακυρωθεί."
 
 # html/captive-portal/templates/status/billing_cancel_subscription.html
 msgid "Your subscription has been canceled successfully"
-msgstr ""
+msgstr "Η συνδρομή σας έχει ακυρωθεί με επιτυχία"
 
 # html/captive-portal/templates/emails/emails-guest_local_account_creation.html
 msgid "Your user account has been created while registering your device. You may now want to use it for different features (devices registration, status page)."
-msgstr ""
+msgstr "Ο λογαριασμός χρήστη σας έχει δημιουργηθεί κατά την εγγραφή της συσκευής σας. Πιθανόν να θέλετε να τον χρησιμοποιήσετε για άλλες λειτουργίες (καταχώρηση συσκευών, σελίδα κατάστασης)."
 
 # lib/pf/web.pm
 msgid "automatically refresh"
-msgstr ""
+msgstr "αυτόματη ανανέωση"
 
 # pf::web::constants (Locales)
 msgid "de_DE"
@@ -1760,7 +1760,7 @@ msgstr "Deutsch"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Activate/Email.pm
 msgid "does not have permission to sponsor a user"
-msgstr ""
+msgstr "δεν έχει άδεια χορηγού για έναν χρήστη"
 
 # pf::web::constants (Locales)
 msgid "en_US"
@@ -1769,11 +1769,11 @@ msgstr "English"
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/SecurityEvent.pm
 # lib/pf/web/release.pm
 msgid "error: max re-enables reached"
-msgstr "Maximum re-enables reached!"
+msgstr "Φτάσατε τον μέγιστο αριθμό επαν-ενεργοποιήσεων!"
 
 # lib/pf/web/release.pm
 msgid "error: not found in the database"
-msgstr "Your computer was not found in the PacketFence database. Please reboot to solve this issue."
+msgstr "Ο υπολογιστής σας δεν βρέθηκε στην βάση δεδομένων του PacketFence. Παρακαλώ κάντε επανεκκίνηση για να λύσετε το πρόβλημα."
 
 # pf::web::constants (Locales)
 msgid "es_ES"
@@ -1789,27 +1789,27 @@ msgstr "Français"
 
 # pf::web::constants (Locales)
 msgid "he_IL"
-msgstr ""
+msgstr "Hebrew (IL)"
 
 # html/captive-portal/templates/layout.html
 msgid "help: provide info"
-msgstr "If you have questions about this page, contact your local support staff for assistance. Please provide the following information: "
+msgstr "Αν έχετε απορίες για αυτή τη σελίδα, επικοινωνήστε με το προσωπικό υπσοτήριξής σας. Παρακαλώ να τους παρέχετε την παρακάτω πληροφορία: "
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/SSL_Inspection.pm
 msgid "iOS certificate installation"
-msgstr ""
+msgstr "εγκατάσταση πιστοποιητικού iOS"
 
 # html/captive-portal/templates/ssl_inspection/ios.html
 msgid "iOS certificate trust prompt"
-msgstr ""
+msgstr "παρακίνηση αποδοχής πιστοποιητικού iOS"
 
 # html/captive-portal/templates/ssl_inspection/ios.html
 msgid "iOS passcode prompt"
-msgstr ""
+msgstr "παρακίνηση κωδικού iOS"
 
 # html/captive-portal/templates/ssl_inspection/ios.html
 msgid "iOS trust prompt"
-msgstr ""
+msgstr "παρακίνηση αποδοχής iOS"
 
 # pf::web::constants (Locales)
 msgid "it_IT"
@@ -1833,43 +1833,43 @@ msgstr "Português"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module/Authentication/Blackhole.pm
 msgid "register: not allowed to register"
-msgstr "You are not allowed to register on this network."
+msgstr "Δεν επιτρέπεται να εγγραφείτε σε αυτό το δίκτυο"
 
 # html/captive-portal/lib/captiveportal/PacketFence/DynamicRouting/Module.pm
 msgid "release: enabling network"
-msgstr "Enabling network access."
+msgstr "Η πρόσβαση στο δίκτυο ενεργοποιείται."
 
 # lib/pf/web/release.pm
 msgid "release: reopen browser"
-msgstr "You may have to re-open your browser to get Internet access. If you are plugged into a telephone, you will need to restart your computer to get Internet access."
+msgstr "Ίσως χρειαστεί να ανοίξετε ξανά τον περιηγητή σας για να αποκτήσετε πρόσβαση στο δίκτυο. Αν είστε συνδεμένοι σε τηλέφωνο, χρειάζεται να επανεκκινήσετε τον υπολογιστή σας."
 
 # html/captive-portal/templates/emails/emails-guest_sponsor_activation.html
 msgid "requested guest access to your network."
-msgstr ""
+msgstr "αιτούμενη πρόσβαση επισκέπτη στο δίκτυο"
 
 # lib/pf/web.pm
 msgid "scan in progress contact support if too long"
-msgstr ""
+msgstr "σάρωση σε εξέλιξη, επικοινωνήστε με την υποστήριξη αν διαρκεί πολύ"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Remediation.pm
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/SecurityEvent.pm
 # html/captive-portal/templates/scan-in-progress.html
 msgid "scan: scan in progress"
-msgstr "Your system is being scanned"
+msgstr "Γίνεται σάρωση του συστήματός σας"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/Remediation.pm
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/SecurityEvent.pm
 msgid "security event: quarantine established"
-msgstr ""
+msgstr "συμβάν ασφαλείας: εφαρμόστηκε καραντίνα"
 
 # html/captive-portal/lib/captiveportal/PacketFence/Controller/SecurityEvent.pm
 # lib/pf/web.pm
 msgid "system scan in progress"
-msgstr "Your system is being scanned - this process will take approximately %s seconds."
+msgstr "Γίνεται σάρωση του συστήματός σας, η διαδικασία θα διαρκέσει περίπου %s δευτερόλεπτα."
 
 # pf::web::constants (Locales)
 msgid "tr_TR"
-msgstr ""
+msgstr "Turkish"
 
 # pf::web::constants (Locales)
 msgid "el_GR"

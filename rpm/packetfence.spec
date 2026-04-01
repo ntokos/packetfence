@@ -349,7 +349,7 @@ heterogeneous networks. PacketFence provides features such as
 %build
 # generate translations
 # TODO this is duplicated in debian/rules, we should aim to consolidate in a 'make' style step
-for TRANSLATION in de en es fr he_IL it nl pl_PL pt_BR nb_NO tr_TR; do
+for TRANSLATION in de en es fr he_IL it nl pl_PL pt_BR nb_NO tr_TR el_GR; do
     /usr/bin/msgfmt conf/locale/$TRANSLATION/LC_MESSAGES/packetfence.po \
       --output-file conf/locale/$TRANSLATION/LC_MESSAGES/packetfence.mo
 done
@@ -1140,6 +1140,10 @@ fi
 %dir                    /usr/local/pf/conf/locale/tr_TR/LC_MESSAGES
 %config(noreplace)      /usr/local/pf/conf/locale/tr_TR/LC_MESSAGES/packetfence.po
 %config(noreplace)      /usr/local/pf/conf/locale/tr_TR/LC_MESSAGES/packetfence.mo
+%dir                    /usr/local/pf/conf/locale/el_GR
+%dir                    /usr/local/pf/conf/locale/el_GR/LC_MESSAGES
+%config(noreplace)      /usr/local/pf/conf/locale/el_GR/LC_MESSAGES/packetfence.po
+%config(noreplace)      /usr/local/pf/conf/locale/el_GR/LC_MESSAGES/packetfence.mo
 %config(noreplace)      /usr/local/pf/conf/log.conf
 %dir                    /usr/local/pf/conf/log.conf.d
 %config(noreplace)      /usr/local/pf/conf/log.conf.d/*.conf

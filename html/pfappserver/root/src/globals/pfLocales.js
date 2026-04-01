@@ -43,6 +43,10 @@ export const pfLocales = [
     label: 'Turkish', // i18n defer
     locale: 'tr_TR', is_ui: true
   },
+  {
+    label: 'Greek', // i18n defer
+    locale: 'el_GR'
+  },
 ]
 
 export const localeStrings = {

@@ -1,5 +1,5 @@
 # English translations for PacketFence package.
-# Copyright (C) 2005-2025 Inverse inc.
+# Copyright (C) 2005-2026 Inverse inc.
 # This file is distributed under the same license as the PacketFence package.
 # 
 # Translators:
@@ -2237,3 +2237,7 @@ msgstr "Votre appareil est en cours d'analyse. Ce processus devrait prendre envi
 # pf::web::constants (Locales)
 msgid "tr_TR"
 msgstr "tr_TR"
+
+# pf::web::constants (Locales)
+msgid "el_GR"
+msgstr "Ελληνικά"

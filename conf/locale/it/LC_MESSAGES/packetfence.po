@@ -1,5 +1,5 @@
 # English translations for PacketFence package.
-# Copyright (C) 2005-2025 Inverse inc.
+# Copyright (C) 2005-2026 Inverse inc.
 # This file is distributed under the same license as the PacketFence package.
 # 
 # Translators:
@@ -2228,3 +2228,7 @@ msgstr "scansione del sistema in corso"
 # pf::web::constants (Locales)
 msgid "tr_TR"
 msgstr ""
+
+# pf::web::constants (Locales)
+msgid "el_GR"
+msgstr "Ελληνικά"
