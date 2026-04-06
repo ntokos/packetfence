@@ -1,7 +1,11 @@
 {
    "filter" : {
       "FORWARD" : [],
-      "INPUT" :   [],
+      "INPUT" :   [
+         "# Allow Captcha Node.js server access",
+	 "--in-interface lo --protocol tcp --match tcp --dport 3030 --jump ACCEPT",
+	 "--in-interface eth0 --protocol tcp --match tcp --dport 3030 --jump ACCEPT"
+	 ],
       "OUTPUT" :  []
    },
    "mangle" : {
