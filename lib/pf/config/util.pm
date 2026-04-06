@@ -664,8 +664,8 @@ sub send_using_smtp_callback {
     # Send the data
     $smtp->data()
       or die "SMTP data() command failed: $!\n" . $smtp->message . "\n";
-    $self->print_for_smtp($smtp);
-    $smtp->datasend("\n");
+    $smtp->datasend($self->as_string)
+      or die "SMTP datasend() command failed: $!\n" . $smtp->message . "\n";
 
     # Finish the mail
     $smtp->dataend()
