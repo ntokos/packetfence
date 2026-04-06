@@ -648,6 +648,9 @@ sub send_using_smtp_callback {
         }
     }
 
+    # Inject Message-ID to header to satisfy strict SMTP relays
+    $self->add('Message-ID' => "<" . time . "." . $$ . '@' . $fqdn . ">");
+
     # Send the mail command
     %opts = MIME::Lite::__opts( \%args, @MIME::Lite::_mail_opts );
     $smtp->mail( $args{From}, %opts ? \%opts : () )
