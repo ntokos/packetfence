@@ -1867,6 +1867,10 @@ msgstr "συμβάν ασφαλείας: εφαρμόστηκε καραντίν
 msgid "system scan in progress"
 msgstr "Γίνεται σάρωση του συστήματός σας, η διαδικασία θα διαρκέσει περίπου %s δευτερόλεπτα."
 
+# html/captive-portal/templates/signin.html
+msgid "I am not a robot"
+msgstr "Δεν είμαι ρομπότ"
+
 # pf::web::constants (Locales)
 msgid "tr_TR"
 msgstr "Turkish"
