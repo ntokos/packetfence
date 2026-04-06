@@ -219,7 +219,22 @@ Validate the provided informations during the signup
 sub validate_info {
     my ($self) = @_;
 
-    my $telephone = $self->request_fields->{telephone};
+    #my $telephone = $self->request_fields->{telephone};
+    my $raw_telephone = $self->request_fields->{telephone};
+
+    # Pass input phone number through our custom function to return the normalized "3069XXXXXXXX" string.
+    require pf::web::util;
+    my $telephone = pf::web::util::validate_phone_number($raw_telephone);
+
+    unless (defined $telephone) {
+        $self->app->flash->{error} = $self->app->i18n("Telephone number is not valid");
+        $self->prompt_fields();
+        return 0;
+    }
+
+    # Update the request field to enforce constistency in all PF code
+    $self->request_fields->{telephone} = $telephone;
+    
     my $pid = $self->request_fields->{$self->pid_field};
     $pid =~ s/[\(\) \-]//g;
     my @carriers = @{$self->carriers};

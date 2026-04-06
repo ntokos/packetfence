@@ -48,34 +48,51 @@ Returns phone number in xxxyyyzzzz format if valid undef otherwise.
 
 =cut
 
+#sub validate_phone_number {
+#    my ($phone_number) = @_;
+#    return unless defined $phone_number;
+#    # north american regular expression
+#    if ($phone_number =~ /
+#        ^(?:\+?(1)[-.\s]?)?   # optional 1 in front with -, ., space or nothing seperator
+#        \(?([2-9]\d{2})\)?    # captures first 3 digits allows optional parenthesis
+#        [-.\s]?               # separator -, ., space or nothing
+#        (\d{3})               # captures 3 digits
+#        [-.\s]?               # separator -, ., space or nothing
+#       (\d{4})$              # captures last 4 digits
+#       /x) {
+#        return "$1$2$3$4" if defined($1);
+#        return "$2$3$4";
+#    }
+#    # rest of world regular expression
+#    if ($phone_number =~ /
+#        ^\+?\s?              # optional + on front with optional space
+#        ((?:[0-9]\s?){6,14}   # between 6 and 14 groups of digits seperated by spaces or not
+#        [0-9])$              # end with a digit
+#        /x) {
+#        # trim spaces
+#        my $return = $1;
+#        $return =~ s/\s+//g;
+#      return $return;
+#    }
+#    return;
+#}
+
 sub validate_phone_number {
     my ($phone_number) = @_;
     return unless defined $phone_number;
-    # north american regular expression
-    if ($phone_number =~ /
-        ^(?:\+?(1)[-.\s]?)?   # optional 1 in front with -, ., space or nothing seperator
-        \(?([2-9]\d{2})\)?    # captures first 3 digits allows optional parenthesis
-        [-.\s]?               # separator -, ., space or nothing
-        (\d{3})               # captures 3 digits
-        [-.\s]?               # separator -, ., space or nothing
-        (\d{4})$              # captures last 4 digits
-        /x) {
-        return "$1$2$3$4" if defined($1);
-        return "$2$3$4";
+
+    # Strip out any spaces, dashes, or dots
+    $phone_number =~ s/[\s\-\.]//g;
+
+    if ($phone_number =~ /^(\+?30)?(69[0-9]{8})$/) {
+        
+        # Force all valid numbers to start with exactly 30
+        return "30$2"; 
     }
-    # rest of world regular expression
-    if ($phone_number =~ /
-        ^\+?\s?              # optional + on front with optional space
-        ((?:[0-9]\s?){6,14}   # between 6 and 14 groups of digits seperated by spaces or not
-        [0-9])$              # end with a digit
-        /x) {
-        # trim spaces
-        my $return = $1;
-        $return =~ s/\s+//g;
-        return $return;
-    }
+
     return;
 }
+
 
 =item is_creditcardexpiration_valid
 
