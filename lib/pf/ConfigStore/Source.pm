@@ -46,6 +46,7 @@ our %TYPE_TO_EXPANDED_FIELDS = (
 
 our %TYPE_TO_FLATTEN = (
     SMS => [qw(message)],
+    SMSGUNet => [qw(message)],
     Twilio => [qw(message)],
     Clickatell => [qw(message)],
     Email => [qw(allowed_domains banned_domains)],

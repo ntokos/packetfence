@@ -142,6 +142,11 @@ export {
   BaseFormGroupChosenMultiple               as FormGroupEduroamRadiusAuth,
   BaseFormGroupChosenOne                    as FormGroupEduroamRadiusAuthProxyType,
   BaseFormGroupInput                        as FormGroupEduroamOperatorName,
+  BaseFormGroupInput                        as FormGroupApiUrl,
+  BaseFormGroupInput                        as FormGroupServiceId,
+  BaseFormGroupInput                        as FormGroupMessageId,
+  BaseFormGroupInput                        as FormGroupInstitution,
+  BaseFormGroupInputPassword                as FormGroupPresharedKey,
 
   BaseServices,
   ButtonSamlMetaData,
