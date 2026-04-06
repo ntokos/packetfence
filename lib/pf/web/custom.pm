@@ -18,7 +18,8 @@ use warnings;
 use Date::Parse;
 use File::Basename;
 use POSIX;
-use JSON::MaybeXS;
+#use JSON::MaybeXS;
+use JSON::MaybeXS qw(decode_json); # Make sure to import decode_json
 use Template;
 use Locale::gettext;
 use pf::log;
@@ -29,6 +30,7 @@ use pf::util;
 use pf::ip4log;
 use pf::node qw(node_attributes node_view node_modify);
 use pf::web;
+use LWP::UserAgent; # Needed by the Node.js API call
 
 =head1 WARNING
 
@@ -39,9 +41,82 @@ replacing earlier implementations.
 
 =cut
 
-{
-no warnings 'redefine';
-package pf::web;
+#-------------------------------------------------------------------------------------------
+# Customization of the captiveportal::dispatch method to intercept a /signup call
+# during the login attempt in order to verify the CAPTCHA token with the Node.js server.
+#-------------------------------------------------------------------------------------------
+
+require captiveportal;
+
+# Grab the inherited Catalyst dispatch method
+my $orig_dispatch = captiveportal->can('dispatch');
+
+if ($orig_dispatch) {
+    my $logger = get_logger();
+    no warnings 'redefine';
+	
+    # Our custom dispatch method for interception of portal requests
+    *captiveportal::dispatch = sub {
+        my ($c, @args) = @_;
+
+        # Intercept portal requests to the signup/registration route
+        my $path = $c->request->path || '';
+		
+        if ($path =~ m{^signup}i && $c->request->method eq 'POST') {
+	    $logger->debug("Path matched route 'signup'");
+            
+            my $token = $c->request->body_parameters->{'captcha_token'};
+            my $is_valid = 0;
+			
+	    $logger->debug("Body parameter captcha_token has value: $token");
+
+            # Verify token against Node.js server
+            if ($token) {
+                my $ua = LWP::UserAgent->new;
+                $ua->timeout(5); # Don't hang the portal if the Node server is down
+                
+		$logger->debug("Checking token with node.js server");
+		
+		# Send the secret key to the Node server
+		$ua->default_header('X-Custom-API-Key' => 'UseStrongerAuthXKey');
+    
+		my $response = $ua->get("https://${pf::config::fqdn}:3030/check-token?token=$token");
+				
+                if ($response->is_success) {
+		    $logger->debug("Successfully connected to Node.js server");
+
+                    eval {
+                        my $json = decode_json($response->decoded_content);
+                        $is_valid = 1 if $json->{valid};
+                    };
+				
+		    $logger->debug("Node.js server token validation result: $is_valid");
+
+                    if ($@) {
+                        $logger->error("CAPTCHA: Failed to parse JSON response: $@");
+                    }
+                } else {
+                    $logger->error("CAPTCHA: Node server unreachable or returned error: " . $response->status_line);
+                }
+            }
+
+            # Handle the validation result
+            if (!$is_valid) {
+                $logger->warn("CAPTCHA: Invalid, missing, or expired token for IP: " . $c->request->address);
+                
+                # Redirect back to the portal index with the error flag for JS to catch
+                $c->response->redirect($c->uri_for('/', { error => 'captcha_failed' })->as_string);
+                
+                # Return immediately to stop Catalyst from processing the registration
+                return; 
+            } else {
+                $logger->info("CAPTCHA: Successfully verified token for IP: " . $c->request->address);
+            }
+        }
+
+        # If CAPTCHA passed, or if it's any other route, hand it back to PacketFence
+        return $orig_dispatch->($c, @args);
+    };
 
 # sample constant
 #Readonly::Scalar our $GUEST_SESSION_DURATION => 60 * 60 * 24 * 7; # read 7 days
