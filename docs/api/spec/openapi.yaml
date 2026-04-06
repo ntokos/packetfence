@@ -45989,6 +45989,7 @@ paths:
           - HP::Switch
           - Hostapd_template
           - Huawei::S5720
+          - Huawei::WAC
           - Juniper::Mist
           - Meru::MC_v2
           - PacketFence::SNMP
@@ -46025,6 +46026,7 @@ paths:
           - HP::Switch
           - Hostapd_template
           - Huawei::S5720
+          - Huawei::WAC
           - Juniper::Mist
           - Meru::MC_v2
           - PacketFence::SNMP
@@ -46064,6 +46066,7 @@ paths:
           - HP::Switch
           - Hostapd_template
           - Huawei::S5720
+          - Huawei::WAC
           - Juniper::Mist
           - Meru::MC_v2
           - PacketFence::SNMP
@@ -46103,6 +46106,7 @@ paths:
           - HP::Switch
           - Hostapd_template
           - Huawei::S5720
+          - Huawei::WAC
           - Juniper::Mist
           - Meru::MC_v2
           - PacketFence::SNMP
@@ -46147,6 +46151,7 @@ paths:
           - HP::Switch
           - Hostapd_template
           - Huawei::S5720
+          - Huawei::WAC
           - Juniper::Mist
           - Meru::MC_v2
           - PacketFence::SNMP

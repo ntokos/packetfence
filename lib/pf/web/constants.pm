@@ -130,6 +130,8 @@ Readonly::Scalar our $EXT_URL_F5                    => '^/F5';
 Readonly::Scalar our $EXT_URL_MERAKI_MS             => '^/Meraki::MS';
 Readonly::Scalar our $EXT_URL_RUCKUS_UNLEASHED      => '^/Ruckus::Unleashed';
 Readonly::Scalar our $EXT_URL_MIST                  => '^/MistAP';
+# For Huawei WAC testing
+Readonly::Scalar our $EXT_URL_HUAWEI_WAC            => '^/Huawei::WAC';
 
 # Ubiquiti doesn't support setting the URL so we much detect it using this URL which will then map to the Ubiquiti module in pf::web::externalportal
 Readonly::Scalar our $EXT_URL_UBIQUITI              => '^/guest/s/[a-zA-Z0-9]+/';

@@ -133,6 +133,7 @@ use pf::Switch::HP::Procurve_5400;
 use pf::Switch::Hostapd;
 use pf::Switch::Huawei;
 use pf::Switch::Huawei::S5710;
+use pf::Switch::Huawei::WAC;
 use pf::Switch::IBM;
 use pf::Switch::IBM::IBM_RackSwitch_G8052;
 use pf::Switch::Intel;

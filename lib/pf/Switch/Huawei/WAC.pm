@@ -1,0 +1,243 @@
+package pf::Switch::Huawei::WAC;
+
+
+=head1 NAME
+
+pf::Switch::Huawei::WAC
+
+=head1 SYNOPSIS
+
+The pf::Switch::Huawei::WAC - Object oriented module to manage access to Huawei WAC
+
+=head1 STATUS
+
+Tested for Huawei AirEngine9700-M1
+
+=cut
+
+use strict;
+use warnings;
+
+use POSIX;
+use Try::Tiny;
+
+use base ('pf::Switch::Huawei');
+
+use pf::constants;
+use pf::config qw(
+    $MAC
+    $SSID
+    $WIRELESS_MAC_AUTH
+    $WEBAUTH_WIRELESS
+    $WIRELESS
+);
+sub description { 'Huawei WAC' }
+
+# importing switch constants
+use pf::Switch::constants;
+use pf::util;
+use pf::util::radius qw(perform_disconnect);
+use pf::accounting qw(node_accounting_current_sessionid);
+
+=head1 SUBROUTINES
+
+=over
+
+=cut
+
+# CAPABILITIES
+# access technology supported
+use pf::SwitchSupports qw(
+    WirelessDot1x
+    WirelessMacAuth
+    ExternalPortal
+    WebFormRegistration
+);
+# inline capabilities
+sub inlineCapabilities { return ($MAC,$SSID); }
+
+=item parseExternalPortalRequest
+
+Parse external portal request using URI and it's parameters then return an hash reference with the appropriate parameters
+
+See L<pf::web::externalportal::handle>
+
+=cut
+
+sub parseExternalPortalRequest {
+    my ( $self, $r, $req ) = @_;
+    my $logger = $self->logger;
+
+    # Using a hash to contain external portal parameters
+    my %params = ();
+
+    %params = (
+        switch_id               => $req->param('ac-ip'),
+        client_mac              => clean_mac($req->param('user-mac')),
+        client_ip               => $req->param('user-ip'),
+        ssid                    => $req->param('ssid'),
+        redirect_url            => $req->param('redirect-url'),
+        grant_url               => $req->param('login-url'),
+        status_code             => '200',
+        synchronize_locationlog => $TRUE,
+        connection_type         => $WEBAUTH_WIRELESS,
+    );
+
+    return \%params;
+}
+
+=item getAcceptForm
+
+Creates the form that should be given to the client device to trigger a reauthentication.
+
+=cut
+
+sub getAcceptForm {
+    my ( $self, $mac, $destination_url, $portalSession, $username) = @_;
+    my $logger = $self->logger;
+    $logger->debug("Creating web release form");
+
+    my $login_url = $portalSession->param("ecwp-original-param-login-url");
+
+    my $html_form = qq[
+        <form name="weblogin_form" data-autosubmit="1000" method="POST" action="$login_url">
+            <input type="hidden" name="username" value="$mac">
+            <input type="hidden" name="password" value="$mac">
+        </form>
+        <script src="/content/autosubmit.js" type="text/javascript"></script>
+    ];
+
+    $logger->debug("Generated the following html form : ".$html_form);
+    return $html_form;
+}
+
+
+=item deauthenticateMacRadius
+
+De-authenticate a MAC address from wireless network (including 802.1x).
+
+New implementation using RADIUS Disconnect-Request.
+
+=cut
+
+sub deauthenticateMacRadius {
+    my ( $self, $mac, $is_dot1x ) = @_;
+    my $logger = $self->logger;
+
+    if ( !$self->isProductionMode() ) {
+        $logger->info("not in production mode... we won't perform deauthentication");
+        return 1;
+    }
+
+    $logger->debug("deauthenticate $mac using RADIUS Disconnect-Request deauth method");
+    return $self->radiusDisconnect($mac);
+}
+
+=item radiusDisconnect
+
+Sends a RADIUS Disconnect-Request to the NAS with the MAC as the Calling-Station-Id to disconnect.
+
+Optionally you can provide other attributes as an hashref.
+
+Uses L<pf::util::radius> for the low-level RADIUS stuff.
+
+=cut
+
+# TODO consider whether we should handle retries or not?
+sub radiusDisconnect {
+    my ($self, $mac, $add_attributes_ref) = @_;
+    my $logger = $self->logger;
+
+    # initialize
+    $add_attributes_ref = {} if (!defined($add_attributes_ref));
+
+    if (!defined($self->{'_radiusSecret'})) {
+        $logger->warn(
+            "Unable to perform RADIUS Disconnect-Request on $self->{'_ip'}: RADIUS Shared Secret not configured"
+        );
+        return;
+    }
+
+    $logger->info("deauthenticating $mac");
+
+    # Where should we send the RADIUS Disconnect-Request?
+    # to network device by default
+    my $send_disconnect_to = $self->{'_ip'};
+    # but if controllerIp is set, we send there
+    if (defined($self->{'_controllerIp'}) && $self->{'_controllerIp'} ne '') {
+        $logger->info("controllerIp is set, we will use controller $self->{_controllerIp} to perform deauth");
+        $send_disconnect_to = $self->{'_controllerIp'};
+    }
+    # allowing client code to override where we connect with NAS-IP-Address
+    $send_disconnect_to = $add_attributes_ref->{'NAS-IP-Address'}
+        if (defined($add_attributes_ref->{'NAS-IP-Address'}));
+
+    my $response;
+    try {
+        my $connection_info = $self->radius_deauth_connection_info($send_disconnect_to);
+
+        # transforming MAC to the expected format 00-11-22-33-CA-FE
+        $mac = uc($mac);
+        $mac =~ s/:/-/g;
+
+        # Standard Attributes
+        my $attributes_ref = {
+            'Calling-Station-Id' => $mac,
+        };
+
+        # merging additional attributes provided by caller to the standard attributes
+        $attributes_ref = { %$attributes_ref, %$add_attributes_ref };
+
+        $response = perform_disconnect($connection_info, $attributes_ref);
+    } catch {
+        chomp;
+        $logger->warn("Unable to perform RADIUS Disconnect-Request: $_");
+        $logger->error("Wrong RADIUS secret or unreachable network device...") if ($_ =~ /^Timeout/);
+    };
+    return if (!defined($response));
+
+    return $TRUE if ( ($response->{'Code'} eq 'Disconnect-ACK') || ($response->{'Code'} eq 'CoA-ACK') );
+
+    $logger->warn(
+        "Unable to perform RADIUS Disconnect-Request."
+        . ( defined($response->{'Code'}) ? " $response->{'Code'}" : 'no RADIUS code' ) . ' received'
+        . ( defined($response->{'Error-Cause'}) ? " with Error-Cause: $response->{'Error-Cause'}." : '' )
+    );
+    return;
+}
+
+
+=back
+
+=head1 AUTHOR
+
+Inverse inc. <info@inverse.ca>
+
+=head1 COPYRIGHT
+
+Copyright (C) 2005-2026 Inverse inc.
+
+=head1 LICENSE
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301,
+USA.
+
+=cut
+
+1;
+
+# vim: set shiftwidth=4:
+# vim: set expandtab:
+# vim: set backspace=indent,eol,start:
