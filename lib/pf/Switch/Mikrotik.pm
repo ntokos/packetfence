@@ -197,9 +197,15 @@ sub deauthenticateMacRadius {
         $logger->info("not in production mode... we won't perform deauthentication");
         return 1;
     }
-
+    my $ipAddress = pf::ip4log::mac2ip($mac);
+	
     $logger->debug("deauthenticate $mac using RADIUS Disconnect-Request deauth method");
-    return $self->radiusDisconnect($mac);
+	if ($ipAddress) {
+       return $self->radiusDisconnect($mac, { 'Framed-IP-Address' => $ipAddress } );
+	}
+	else {
+       return $self->radiusDisconnect($mac);
+	}
 }
 
 =item radiusDisconnect
