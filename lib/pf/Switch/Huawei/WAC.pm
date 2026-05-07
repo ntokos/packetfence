@@ -207,6 +207,45 @@ sub radiusDisconnect {
 }
 
 
+=item extractSsid
+
+Find RADIUS SSID parameter out of RADIUS REQUEST Called-Station-Id parameter
+Extract SSID if Called-Station-Id is in the format:
+  "xx-xx-xx-xx-xx-xx:SSID".
+  "xx:xx:xx:xx:xx:xx:SSID"
+  "xxxxxxxxxxxx:SSID"
+
+Otherwise return the full Called-Station-Id value
+
+=cut
+
+sub extractSsid {
+    my ($self, $radius_request) = @_;
+    my $logger = $self->logger;
+
+    if (defined($radius_request->{'Called-Station-Id'})) {
+		my $ssid = $radius_request->{'Called-Station-Id'};
+		
+        if ($ssid =~ /^
+            # below is MAC Address with supported separators: :, - or nothing
+            [a-f0-9]{2}[-:]?[a-f0-9]{2}[-:]?[a-f0-9]{2}[-:]?[a-f0-9]{2}[-:]?[a-f0-9]{2}[-:]?[a-f0-9]{2}
+            :                                                                                           # : delimiter
+            (.*)                                                                                        # SSID
+        $/ix) {
+            return $1;
+        }
+
+        return $ssid;
+	}
+
+    $logger->warn(
+        "Unable to extract SSID for module " . ref($self) . ". SSID-based VLAN assignments won't work. "
+        . "Please let us know so we can add support for it."
+    );
+    return;
+}
+
+
 =back
 
 =head1 AUTHOR
